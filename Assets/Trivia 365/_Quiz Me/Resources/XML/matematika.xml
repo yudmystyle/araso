@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestionDatabase>
+	<Questions>
+		<Question>Ada 10 buku. 8 buku bersampul coklat. Persentase buku bersampul coklat adalah </Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">60%</Choices>
+			<Choices correct="true">80%</Choices>
+			<Choices correct="false">70%</Choices>
+			<Choices correct="false">50%</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Bentuk persen dari 3,5 adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">35%</Choices>
+			<Choices correct="true">350%</Choices>
+			<Choices correct="false">3.500%</Choices>
+			<Choices correct="false">3,5%</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Pecahan 0,75 bila diubah menjadi pecahan biasa adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">3/4</Choices>
+			<Choices correct="false">2/3</Choices>
+			<Choices correct="false">4/5</Choices>
+			<Choices correct="false">1/2</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Bentuk desimal dari 3/8 adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">0,125</Choices>
+			<Choices correct="true">0,375</Choices>
+			<Choices correct="false">0,50</Choices>
+			<Choices correct="false">0,575</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>80% senilai dengan . . .</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">1/2</Choices>
+			<Choices correct="false">2/3</Choices>
+			<Choices correct="false">3/4</Choices>
+			<Choices correct="true">4/5</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>20% dari 15.000 adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">1 500</Choices>
+			<Choices correct="false">2 250</Choices>
+			<Choices correct="false">2 500</Choices>
+			<Choices correct="true">3.000</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Harga sebuah baju adalah Rp. 180.000,00. Ada potongan 15%. Harga baju itu sekarang adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Rp. 150.000,00</Choices>
+			<Choices correct="false">Rp. 152.000,00</Choices>
+			<Choices correct="true">Rp. 153.000,00</Choices>
+			<Choices correct="false">Rp. 165.000,00</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Hasil dari 1 2/3 + 0,6 adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">1 8/30</Choices>
+			<Choices correct="false">1 8/15</Choices>
+			<Choices correct="true">2 4/15</Choices>
+			<Choices correct="false">2 8/15</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>4/5 : 3/4 adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">12/20</Choices>
+			<Choices correct="true">16/15</Choices>
+			<Choices correct="false">20/12</Choices>
+			<Choices correct="false">15/16</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question> Hasil dari 9,2 + 0,3 + 11,45 adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">19,73</Choices>
+			<Choices correct="false">20</Choices>
+			<Choices correct="true">20,95</Choices>
+			<Choices correct="false">21</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Hasil dari 1,25 : 0,20 adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">5,25</Choices>
+			<Choices correct="false">6,15</Choices>
+			<Choices correct="true">6,25</Choices>
+			<Choices correct="false">6,35</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Hasil dari 0,81 x 5,9 = n n = . . . .</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">0,4779</Choices>
+			<Choices correct="true">4,779</Choices>
+			<Choices correct="false">47,79</Choices>
+			<Choices correct="false">477,9  </Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Bentuk pecahan campuran dari 45/7 adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">6 2/7</Choices>
+			<Choices correct="true">6 3/7</Choices>
+			<Choices correct="false">6 4/7</Choices>
+			<Choices correct="false">6 5/7</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Hasil dari 4,2 : 15% = n, maka n = ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">26,2</Choices>
+			<Choices correct="false">27</Choices>
+			<Choices correct="false"> 27,2</Choices>
+			<Choices correct="true">28</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Bentuk persen dari 3/15 adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">15 %</Choices>
+			<Choices correct="true">20 %</Choices>
+			<Choices correct="false">25 %</Choices>
+			<Choices correct="false">30 %</Choices>
+		</Answers>
+	</Questions>
+</QuestionDatabase>

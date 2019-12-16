@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &192636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 424866}
+  - component: {fileID: 11470966}
+  - component: {fileID: 114299515619992290}
+  - component: {fileID: 114288870533300492}
+  - component: {fileID: 114177959489854188}
+  - component: {fileID: 8264602}
+  m_Layer: 0
+  m_Name: Demo1Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &424866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192636}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11470966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412435bcd9edcb84bbe713fb2c840992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConsentCanvas: {fileID: 0}
+  MenuCanvas: {fileID: 0}
+  CategoryCanvas: {fileID: 0}
+  GameCanvas: {fileID: 0}
+  ScreenshotCanvas: {fileID: 0}
+  PauseCanvas: {fileID: 0}
+  GameOverCanvas: {fileID: 0}
+  ProfileButton: {fileID: 0}
+  LogoutButton: {fileID: 0}
+  BackButton: {fileID: 0}
+  SettingsButton: {fileID: 0}
+  Homepage: {fileID: 0}
+  ProfilePage: {fileID: 0}
+  SettingsPage: {fileID: 0}
+  CachePanel: {fileID: 0}
+  UniquecodePanel: {fileID: 0}
+  TopBarText: {fileID: 0}
+  ProfileAvatar: {fileID: 0}
+  Username: {fileID: 0}
+  SoundButton: {fileID: 0}
+  VibrateButton: {fileID: 0}
+  AdExperienceButton: {fileID: 0}
+  CategoryGroup: {fileID: 0}
+  ErrorPanel: {fileID: 0}
+  Loading: {fileID: 0}
+  CurrentCategoryText: {fileID: 0}
+  QuestionDisplay: {fileID: 0}
+  AltQuestionDisplay: {fileID: 0}
+  ImageDispay: {fileID: 0}
+  ScoreText: {fileID: 0}
+  ImageLoadingAnimation: {fileID: 0}
+  TimerText: {fileID: 0}
+  LivesText: {fileID: 0}
+  LongBarAnswers: {fileID: 0}
+  ShortBarAnswers: {fileID: 0}
+  ContinueButton: {fileID: 0}
+  QuitPanel: {fileID: 0}
+  ReviewButton: {fileID: 0}
+  ReviewPanel: {fileID: 0}
+  ScreenshotView: {fileID: 0}
+  VideoAdPanel: {fileID: 0}
+  FinalScore: {fileID: 0}
+  CurHighscore: {fileID: 0}
+  TimerAmount: 20
+  DownloadTimeout: 10
+  LivesCount: 999
+  Avatars:
+  - {fileID: 21300000, guid: 1c4c746b2b5256d46863b8c026d58f92, type: 3}
+  - {fileID: 21300000, guid: abdad5cdfb2577143b7c51f5128cb6f4, type: 3}
+  - {fileID: 21300000, guid: b8806ce52c3560d4494d50cffad143a0, type: 3}
+  - {fileID: 21300000, guid: b957dfc1c169a79439d62a503c2676a1, type: 3}
+  - {fileID: 21300000, guid: 7c49f31f1cdc3ef41ad546889ef1e0db, type: 3}
+  - {fileID: 21300000, guid: 28ee04b5fe639c54494de9d412d8892a, type: 3}
+  - {fileID: 21300000, guid: f69ee2e1b4d59ff449adbaeddfe1fdc2, type: 3}
+  - {fileID: 21300000, guid: 477f52a64bfdbec4a8007d4621b310df, type: 3}
+  - {fileID: 21300000, guid: e69dd4a18f4378f4ca3f25162f16b32e, type: 3}
+  - {fileID: 21300000, guid: 336b73744dd5bd9439901701cff92e1c, type: 3}
+  - {fileID: 21300000, guid: 7a174214d3366204ea3dc3f381a7c911, type: 3}
+  - {fileID: 21300000, guid: 012ae4a63e8976244912b554b5d31eb1, type: 3}
+  - {fileID: 21300000, guid: 4a4e084298609a44a94357819cd06ae5, type: 3}
+  CorrectSound: {fileID: 8300000, guid: 3b4967a22a815034f86c91e055ecdce6, type: 3}
+  FailSound: {fileID: 8300000, guid: 97171909ca205a04ead0127a3073b300, type: 3}
+  TickingSound: {fileID: 8300000, guid: 44e1ce3469f43d1409e7d4249c34e805, type: 3}
+  CorrectColor: {r: 0.055795845, g: 0.9485294, b: 0.06195258, a: 1}
+  FailColor: {r: 0.9632353, g: 0.08499137, b: 0.08499137, a: 1}
+  EnablePausing: 0
+  QuestionDisplaySc: {fileID: 0}
+  ImageDispaySc: {fileID: 0}
+  LongBarAnswersSc: {fileID: 0}
+  ShortBarAnswersSc: {fileID: 0}
+  Questions: []
+  AnswersAvailable: []
+--- !u!114 &114299515619992290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51442426a2bb76b4aa8036da064c4c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CategoryFont: {fileID: 12800000, guid: 2a663e14febf198489b9e8263dc5bcb9, type: 3}
+  CategoryFontStyle: 0
+  CategoryNameFontSize: 28
+  CategoryImageSize: 130
+  ProfileCategoryNameFont: {fileID: 12800000, guid: 2a663e14febf198489b9e8263dc5bcb9,
+    type: 3}
+  ProfileCategoryFontStyle: 0
+  ProfileCategoryNameFontSize: 28
+  ProfilePerformanceFont: {fileID: 12800000, guid: 2a663e14febf198489b9e8263dc5bcb9,
+    type: 3}
+  ProfilePerformanceFontStyle: 0
+  ProfilePerformanceNameFontSize: 28
+  ProfileCategoryImageSize: 128
+  CategoryList:
+  - CategoryName: Bahasa Indonesia
+    CategoryImage: {fileID: 21300000, guid: 540c10e2baa1a3345b21641cd8e28c11, type: 3}
+    Mode: 1
+    OnlinePath: 
+    OfflinePath: bahasa
+    LevelPrefName: 
+    AnswerPrefName: 
+    ScorePrefName: 
+    ShuffleQuestions: 1
+  - CategoryName: Matematika
+    CategoryImage: {fileID: 21300000, guid: dfb83f131ddcf4e4b9eaae45efd16e87, type: 3}
+    Mode: 1
+    OnlinePath: 
+    OfflinePath: matematika
+    LevelPrefName: 
+    AnswerPrefName: 
+    ScorePrefName: 
+    ShuffleQuestions: 1
+  - CategoryName: asd
+    CategoryImage: {fileID: 21300000, guid: 7300200f32bb5ea41ab48ec5fcf507fd, type: 3}
+    Mode: 0
+    OnlinePath: http://localhost:8000/xml.xml
+    OfflinePath: 
+    LevelPrefName: 
+    AnswerPrefName: 
+    ScorePrefName: 
+    ShuffleQuestions: 1
+--- !u!114 &114288870533300492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db25fe3870a92754ea313a74d28cc82f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114177959489854188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c1bd113e78454c9a494f1fdf89615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShareText: Get QuizApp Trivia Template on @UnityAssetStore - http://u3d.as/oQJ
+  subject: Share with
+--- !u!82 &8264602
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192636}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 0
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0

@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &169832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 414526}
+  - component: {fileID: 11440778}
+  - component: {fileID: 114709812877667786}
+  - component: {fileID: 114380587578496788}
+  - component: {fileID: 114703712630940252}
+  - component: {fileID: 8224386}
+  m_Layer: 0
+  m_Name: Demo2Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &414526
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &8224386
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169832}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11440778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f235c1a73daeb3c4590284c1be3debcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appId: INSERT_APP_ID_HERE
+  InterstitialAdUnitId: INSERT_INTERSTITIAL_AD_UNIT_ID_HERE
+  AskForConsent: 1
+  ShowAfterHowManyGameovers: 2
+  TestMode: 0
+  ConsentCanvas: {fileID: 0}
+  MenuCanvas: {fileID: 0}
+  CategoryCanvas: {fileID: 0}
+  GameCanvas: {fileID: 0}
+  ScreenshotCanvas: {fileID: 0}
+  PauseCanvas: {fileID: 0}
+  GameOverCanvas: {fileID: 0}
+  Homepage: {fileID: 0}
+  ProfilePage: {fileID: 0}
+  SettingsPage: {fileID: 0}
+  CachePanel: {fileID: 0}
+  ProfileButton: {fileID: 0}
+  BackButton: {fileID: 0}
+  SettingsButton: {fileID: 0}
+  TopBarText: {fileID: 0}
+  ProfileAvatar: {fileID: 0}
+  Username: {fileID: 0}
+  LevelText: {fileID: 0}
+  ProgressBar: {fileID: 0}
+  CorrectAnswersLeft: {fileID: 0}
+  SoundButton: {fileID: 0}
+  VibrateButton: {fileID: 0}
+  AdExperienceButton: {fileID: 0}
+  CategoryName: {fileID: 0}
+  CategoryDisplay: {fileID: 0}
+  CategoryGroup: {fileID: 0}
+  ErrorPanel: {fileID: 0}
+  Loading: {fileID: 0}
+  PickButton: {fileID: 0}
+  RetryButton: {fileID: 0}
+  PlayButton: {fileID: 0}
+  RetryAdPanel: {fileID: 0}
+  CurrentCategoryText: {fileID: 0}
+  QuestionDisplay: {fileID: 0}
+  AltQuestionDisplay: {fileID: 0}
+  ImageDispay: {fileID: 0}
+  ScoreText: {fileID: 0}
+  ImageLoadingAnimation: {fileID: 0}
+  ImageErrorPanel: {fileID: 0}
+  TimerText: {fileID: 0}
+  LivesText: {fileID: 0}
+  LongBarAnswers: {fileID: 0}
+  ShortBarAnswers: {fileID: 0}
+  ContinueButton: {fileID: 0}
+  QuitPanel: {fileID: 0}
+  ReviewButton: {fileID: 0}
+  ReviewPanel: {fileID: 0}
+  ScreenshotView: {fileID: 0}
+  VideoAdPanel: {fileID: 0}
+  FinalScore: {fileID: 0}
+  CurHighscore: {fileID: 0}
+  TimerAmount: 15
+  DownloadTimeout: 10
+  LivesCount: 3
+  Avatars:
+  - {fileID: 21300000, guid: 1c4c746b2b5256d46863b8c026d58f92, type: 3}
+  - {fileID: 21300000, guid: abdad5cdfb2577143b7c51f5128cb6f4, type: 3}
+  - {fileID: 21300000, guid: b8806ce52c3560d4494d50cffad143a0, type: 3}
+  - {fileID: 21300000, guid: b957dfc1c169a79439d62a503c2676a1, type: 3}
+  - {fileID: 21300000, guid: 7c49f31f1cdc3ef41ad546889ef1e0db, type: 3}
+  - {fileID: 21300000, guid: 28ee04b5fe639c54494de9d412d8892a, type: 3}
+  - {fileID: 21300000, guid: f69ee2e1b4d59ff449adbaeddfe1fdc2, type: 3}
+  - {fileID: 21300000, guid: 477f52a64bfdbec4a8007d4621b310df, type: 3}
+  - {fileID: 21300000, guid: e69dd4a18f4378f4ca3f25162f16b32e, type: 3}
+  - {fileID: 21300000, guid: 336b73744dd5bd9439901701cff92e1c, type: 3}
+  - {fileID: 21300000, guid: 7a174214d3366204ea3dc3f381a7c911, type: 3}
+  - {fileID: 21300000, guid: 012ae4a63e8976244912b554b5d31eb1, type: 3}
+  - {fileID: 21300000, guid: 4a4e084298609a44a94357819cd06ae5, type: 3}
+  CorrectSound: {fileID: 8300000, guid: 3b4967a22a815034f86c91e055ecdce6, type: 3}
+  FailSound: {fileID: 8300000, guid: 97171909ca205a04ead0127a3073b300, type: 3}
+  TickingSound: {fileID: 8300000, guid: 44e1ce3469f43d1409e7d4249c34e805, type: 3}
+  CorrectColor: {r: 0.07586217, g: 1, b: 0, a: 1}
+  FailColor: {r: 1, g: 0, b: 0, a: 1}
+  EnablePausing: 0
+  QuestionDisplaySc: {fileID: 0}
+  ImageDispaySc: {fileID: 0}
+  LongBarAnswersSc: {fileID: 0}
+  ShortBarAnswersSc: {fileID: 0}
+  Questions: []
+  AnswersAvailable: []
+  AnswerA:
+  - {fileID: 0}
+  - {fileID: 0}
+  AnswerB:
+  - {fileID: 0}
+  - {fileID: 0}
+  AnswerC:
+  - {fileID: 0}
+  - {fileID: 0}
+  AnswerD:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 169832}
+  m_IsPrefabParent: 1
+--- !u!114 &114380587578496788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db25fe3870a92754ea313a74d28cc82f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114703712630940252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 128c1bd113e78454c9a494f1fdf89615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShareText: Get QuizApp Trivia Template on @UnityAssetStore - http://u3d.as/oQJ
+  subject: Share with
+--- !u!114 &114709812877667786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e601967b63814c4e9f8643ce8d7b8a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CategoryList:
+  - CategoryName: Vehicles
+    CategoryImage: {fileID: 21300000, guid: 136eeedc26e1dd543819409425016c50, type: 3}
+    Mode: 1
+    OnlinePath: 
+    OfflinePath: Offline XML
+    QuestionPref: QueCars
+    AnswerPref: AnsCars
+    PerformancePref: PrefsCars
+    ShuffleQuestions: 1
+  - CategoryName: History
+    CategoryImage: {fileID: 21300000, guid: 5b5857d9bd4972242ba4b3cf53d6ab71, type: 3}
+    Mode: 0
+    OnlinePath: https://www.mintonne.com/files/Qme%20Online.xml
+    OfflinePath: 
+    QuestionPref: QueHist
+    AnswerPref: AnsHist
+    PerformancePref: PrefsHist
+    ShuffleQuestions: 1
+  - CategoryName: General Knowledge
+    CategoryImage: {fileID: 21300000, guid: c33ac14282e9eb040981ba9f47035094, type: 3}
+    Mode: 2
+    OnlinePath: https://www.mintonne.com/files/Qme%20Online.xml
+    OfflinePath: Offline XML
+    QuestionPref: QueGen
+    AnswerPref: AnsGen
+    PerformancePref: PrefsGen
+    ShuffleQuestions: 1
+  - CategoryName: Art
+    CategoryImage: {fileID: 21300000, guid: c84c6252f61e0004b9d571d3b1649fea, type: 3}
+    Mode: 1
+    OnlinePath: 
+    OfflinePath: Offline XML
+    QuestionPref: QueArt
+    AnswerPref: AnsArt
+    PerformancePref: PerfsArt
+    ShuffleQuestions: 1
+  - CategoryName: Geography
+    CategoryImage: {fileID: 21300000, guid: 0db5f52416729db48aa57a1419fb3d93, type: 3}
+    Mode: 2
+    OnlinePath: https://www.mintonne.com/files/Qme%20Online.xml
+    OfflinePath: Offline XML
+    QuestionPref: QueGeo
+    AnswerPref: AnsGeo
+    PerformancePref: PrefsGeo
+    ShuffleQuestions: 1
+  - CategoryName: Entertainment
+    CategoryImage: {fileID: 21300000, guid: 0ae958460aa54754da10cce23df880d8, type: 3}
+    Mode: 0
+    OnlinePath: https://www.mintonne.com/files/Qme%20Online.xml
+    OfflinePath: 
+    QuestionPref: QueEnt
+    AnswerPref: AnsEnt
+    PerformancePref: PrefsEnt
+    ShuffleQuestions: 1
+  ProfileCategoryNameFont: {fileID: 12800000, guid: 2a663e14febf198489b9e8263dc5bcb9,
+    type: 3}
+  ProfileCategoryFontStyle: 0
+  ProfileCategoryNameFontSize: 28
+  ProfilePerformanceFont: {fileID: 12800000, guid: 2a663e14febf198489b9e8263dc5bcb9,
+    type: 3}
+  ProfilePerformanceFontStyle: 0
+  ProfilePerformanceNameFontSize: 28
+  ProfileCategoryImageSize: 128

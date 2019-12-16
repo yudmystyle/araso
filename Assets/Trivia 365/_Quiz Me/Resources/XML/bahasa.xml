@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestionDatabase>
+	<Questions>
+		<Question>Pertandingan sepakbola antara PSS melawan Persebaya berakhir dengan kemenangan Persebaya. Suasana pertandingan berlangsung sangat meriah. Para suporter telah membanjiri Stadion Maguwoharjo sebelum pertandingan dimulai. Mereka saling menjaga diri untuk tidak membuat keributan sampai pertandingan usai. Makna kata suporter dalam paragraf tersebut adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">penonton</Choices>
+			<Choices correct="false">peminat</Choices>
+			<Choices correct="true">pendukung</Choices>
+			<Choices correct="false">pemirsa</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Bertani jagung dimulai dengan menanam bijinya. Setelah tiga sampai empat hari bakal tanaman akan muncul di permukaan tanah. Petani dapat memanen jagung setelah tanaman berusia tiga setengah bulan. Itulah tahapan petani dalam menanam jagung. Ide pokok paragraf tersebut adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">teknik bertani jagung</Choices>
+			<Choices correct="true">tahapan bertani jagung</Choices>
+			<Choices correct="false">awal mula bertani jangung</Choices>
+			<Choices correct="false">usia jagung dipanen</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Air limbah yang berasal dari industri tekstil sangat berbahaya. Air itu mengandung racun. Racun tersebut bisa mengganggu kesehatan manusia. Makna kata limbah pada paragraf tersebut adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">sesuatu yang tidak dipakai</Choices>
+			<Choices correct="false">sisa bahan industri</Choices>
+			<Choices correct="true">sisa proses produksi</Choices>
+			<Choices correct="false">bahan sortiran pabrik</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Pohon itu kelihatan pendek. Antonim kata pendek dalam kalimat tersebut adalah ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">besar</Choices>
+			<Choices correct="false"> panjang</Choices>
+			<Choices correct="true">tinggi</Choices>
+			<Choices correct="false">rimbun</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Belanda ingin mengalahkan Diponegoro namun belum berhasil. Belanda berbohong untuk mengalahkannya. Pimpinan Belanda, pura-pura mengajak Diponegoro berunding di Magelang. Akan tetapi, Diponegoro ditangkap. Beliau diasingkan ke Batavia, kemudian Manado. Akhirnya Diponegoro dipindahkan ke Makasar sampai wafat 8 Juni 1855. Bagaimana cara Belanda mengalahkan Diponegoro? Cara Belanda mengalahkan Diponegoro dengan ….</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">penangkapan</Choices>
+			<Choices correct="false">pengasingan</Choices>
+			<Choices correct="true">penipuan</Choices>
+			<Choices correct="false">penculikan</Choices>
+		</Answers>
+	</Questions>
+</QuestionDatabase>

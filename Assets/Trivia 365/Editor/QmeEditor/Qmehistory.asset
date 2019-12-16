@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d2804a96eb0ec4dada9c1348e7ed21, type: 3}
+  m_Name: Qmehistory
+  m_EditorClassIdentifier: 
+  data:
+    questions:
+    - question: 'Ada 10 buku. 8 buku bersampul coklat. Persentase buku bersampul coklat
+        adalah '
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 60%
+      - correct: 1
+        answer: 80%
+      - correct: 0
+        answer: 70%
+      - correct: 0
+        answer: 50%
+    - question: "Bentuk persen dari 3,5 adalah \u2026."
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 35%
+      - correct: 1
+        answer: 350%
+      - correct: 0
+        answer: 3.500%
+      - correct: 0
+        answer: 3,5%
+    - question: "Pecahan 0,75 bila diubah menjadi pecahan biasa adalah \u2026."
+      imageUrl: 
+      answers:
+      - correct: 1
+        answer: 3/4
+      - correct: 0
+        answer: 2/3
+      - correct: 0
+        answer: 4/5
+      - correct: 0
+        answer: 1/2
+    - question: "Bentuk desimal dari 3/8 adalah \u2026."
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 0,125
+      - correct: 1
+        answer: 0,375
+      - correct: 0
+        answer: 0,50
+      - correct: 0
+        answer: 0,575
+    - question: 80% senilai dengan . . .
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 1/2
+      - correct: 0
+        answer: 2/3
+      - correct: 0
+        answer: 3/4
+      - correct: 1
+        answer: 4/5
+    - question: "20% dari 15.000 adalah \u2026."
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 1 500
+      - correct: 0
+        answer: 2 250
+      - correct: 0
+        answer: 2 500
+      - correct: 1
+        answer: 3.000
+    - question: "Harga sebuah baju adalah Rp. 180.000,00. Ada potongan 15%. Harga
+        baju itu sekarang adalah \u2026."
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: Rp. 150.000,00
+      - correct: 0
+        answer: Rp. 152.000,00
+      - correct: 1
+        answer: Rp. 153.000,00
+      - correct: 0
+        answer: Rp. 165.000,00
+    - question: "Hasil dari 1 2/3 + 0,6 adalah \u2026."
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 1 8/30
+      - correct: 0
+        answer: 1 8/15
+      - correct: 1
+        answer: 2 4/15
+      - correct: 0
+        answer: 2 8/15
+    - question: "4/5 : 3/4 adalah \u2026."
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 12/20
+      - correct: 1
+        answer: 16/15
+      - correct: 0
+        answer: 20/12
+      - correct: 0
+        answer: 15/16
+    - question: " Hasil dari 9,2 + 0,3 + 11,45 adalah \u2026."
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 19,73
+      - correct: 0
+        answer: 20
+      - correct: 1
+        answer: 20,95
+      - correct: 0
+        answer: 21
+    - question: "Hasil dari 1,25 : 0,20 adalah \u2026."
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 5,25
+      - correct: 0
+        answer: 6,15
+      - correct: 1
+        answer: 6,25
+      - correct: 0
+        answer: 6,35
+    - question: Hasil dari 0,81 x 5,9 = n n = . . . .
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 0,4779
+      - correct: 1
+        answer: 4,779
+      - correct: 0
+        answer: 47,79
+      - correct: 0
+        answer: '477,9  '
+    - question: "Bentuk pecahan campuran dari 45/7 adalah \u2026."
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 6 2/7
+      - correct: 1
+        answer: 6 3/7
+      - correct: 0
+        answer: 6 4/7
+      - correct: 0
+        answer: 6 5/7
+    - question: "Hasil dari 4,2 : 15% = n, maka n = \u2026."
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 26,2
+      - correct: 0
+        answer: 27
+      - correct: 0
+        answer: ' 27,2'
+      - correct: 1
+        answer: 28
+    - question: "Bentuk persen dari 3/15 adalah \u2026."
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 15 %
+      - correct: 1
+        answer: 20 %
+      - correct: 0
+        answer: 25 %
+      - correct: 0
+        answer: 30 %

@@ -1,0 +1,1 @@
+If you are using any other Android SDK, kindly import the Android Core unitypackage only then test. If it is not working, import the Android Plugins unitypackage.
