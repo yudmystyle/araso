@@ -117,6 +117,8 @@ public class Demo1Controller : MonoBehaviour
     public GameObject CachePanel;
     [Tooltip("The uniquecode panel")]
     public GameObject UniquecodePanel;
+    [Tooltip("The create arena panel")]
+    public GameObject CreateArenaPanel;
     [Tooltip("The topbar text")]
     public Text TopBarText;
     [Tooltip("The avatar display component")]
@@ -769,12 +771,6 @@ public class Demo1Controller : MonoBehaviour
         ErrorPanel.SetActive(false);
     }
 
-    //Join Arena
-    public void JoinArena()
-    {
-        
-    }
-
     internal void PlayGame(string CategoryName = "", string OnlinePath = "", string OfflinePath = "", int Mode = 3, string LevelPrefName = "", string AnswerPrefName = "", string ScorePrefName = "", bool ShuffleQuestions = true)
     {
         RandomOrder = ShuffleQuestions;
@@ -913,6 +909,15 @@ public class Demo1Controller : MonoBehaviour
         UniquecodePanel.SetActive(true);
     }
 
+    public void ShowCreateArenaPanel()
+    {
+        CreateArenaPanel.SetActive(true);
+    }
+
+    public void CloseCreateArenaPanel()
+    {
+        CreateArenaPanel.SetActive(false);
+    }
     public void CloseCachePanel()
     {
         CachePanel.SetActive(false);
