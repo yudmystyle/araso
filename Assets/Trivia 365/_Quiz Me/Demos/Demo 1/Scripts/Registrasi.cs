@@ -24,7 +24,7 @@ public class Registrasi : MonoBehaviour
         form.AddField("password", passwordField.text);
         WWW www = new WWW("localhost:8000/register", form);
         yield return www;
-        if (www.text.Contains("\"success\": 1"))
+        if (www.text.Contains("\"success\":1"))
         {
             Debug.Log("User Created Successfully");
             UnityEngine.SceneManagement.SceneManager.LoadScene("loginmenu");

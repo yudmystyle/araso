@@ -22,6 +22,9 @@ public class Createarena : MonoBehaviour
     private string waktuMulai;
     private string waktuSelesai;
 
+    public int success;
+    public string uniquecode;
+
     public void CallCreatearena()
     {
         StartCoroutine(Makearena());
@@ -34,7 +37,7 @@ public class Createarena : MonoBehaviour
 
         //waktuSelesai = "2019-12-20 19:00:00";
         WWWForm form = new WWWForm();
-        form.AddField("id_paketsoal", idSoal.value.ToString());
+        form.AddField("id_paketsoal", idSoal.options[idSoal.value].text);
         form.AddField("waktu_mulai", waktuMulai);
         form.AddField("waktu_selesai", waktuSelesai);
 
@@ -46,7 +49,10 @@ public class Createarena : MonoBehaviour
         if (www.text.Contains("\"success\":1"))
         {
             Debug.Log("Create Arena Successfully");
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Demo1");
+            UniqueCodeObject uniqueCodeObject = new UniqueCodeObject();
+            uniqueCodeObject = JsonUtility.FromJson<UniqueCodeObject>(www.text);
+            promptText.text = "Uniquecode : " + uniqueCodeObject.uniquecode;
+            //UnityEngine.SceneManagement.SceneManager.LoadScene("Demo1");
         }
         else if (www.text.Contains("arena tidak dapat dibuat karena batas waktu akhir sudah lewat"))
         {

@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class Uniquecode : MonoBehaviour
 {
     public InputField uniquecodeField;
-
     public Text promptText;
 
     public void CallUniquecode()
