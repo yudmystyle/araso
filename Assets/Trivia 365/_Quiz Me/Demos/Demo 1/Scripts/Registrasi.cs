@@ -17,6 +17,11 @@ public class Registrasi : MonoBehaviour
         StartCoroutine(Register());
     }
 
+    public void CloseRegister()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("mainmenu");
+    }
+
     IEnumerator Register()
     {
         WWWForm form = new WWWForm();

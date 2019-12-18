@@ -12,6 +12,11 @@ public class Login : MonoBehaviour
 
     public Button submitButton;
 
+    public void CloseLogin()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("mainmenu");
+    }
+
     public void CallLogin()
     {
         StartCoroutine(SignIn());
