@@ -14,183 +14,196 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     questions:
-    - question: Masalah apa yang dialami jika Anda memerlukan "Xerodent" ? =
+    - question: Daging apa yang anda dapatkan jika memesan "cochon" di Perancis ?
+        =
       imageUrl: 
       answers:
       - correct: 0
-        answer: Mimisan
+        answer: Daging Sapi
       - correct: 0
-        answer: Batuk
-      - correct: 0
-        answer: Demam
+        answer: Daging Anjing
       - correct: 1
-        answer: Mulut Kering
-    - question: Obat manakah yang digunakan untuk mengobati epilepsi ? =
+        answer: Daging Babi
+      - correct: 0
+        answer: Daging Kelinci
+    - question: Apa bahan utama dalam minuman "Bloody Mary" ? =
       imageUrl: 
       answers:
       - correct: 0
-        answer: Betadine
+        answer: Just Wortel
+      - correct: 1
+        answer: Jus Tomat
+      - correct: 0
+        answer: Jus Semangka
+      - correct: 0
+        answer: Jus Buah Naga
+    - question: Tanaman apakah yang di gunakan dalam pembuatan minumn rum ? =
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: Anggur
       - correct: 0
         answer: Alkohol
-      - correct: 1
-        answer: Carbatrol
-      - correct: 0
-        answer: Loratadine
-    - question: Reaksi Jarisch-Herxheimer dapat terjadi saat menjalani pengobatan
-        penyakit =
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: TBC
-      - correct: 1
-        answer: Sifilis
-      - correct: 0
-        answer: Kanker
-      - correct: 0
-        answer: Sakit Kepala
-    - question: Digunakan dalam pengobatan apakah jarum ini ? =
-      imageUrl: jarum.png
-      answers:
-      - correct: 0
-        answer: Bekam
-      - correct: 0
-        answer: Gurah
-      - correct: 0
-        answer: Refleksi
-      - correct: 1
-        answer: Akupuntur
-    - question: Apa makna akronim PRN yang tertulis pada resep ? =
-      imageUrl: 
-      answers:
-      - correct: 1
-        answer: 'Sesuai Kebutuhan '
-      - correct: 0
-        answer: Kebutuhan Primary
-      - correct: 0
-        answer: Kebutuhan sekunder
-      - correct: 0
-        answer: tidak ada kebutuhan
-    - question: CMT merupakan singkatan umum untuk penyakit saraf langka. Apa kepanjangannya
-        ?
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Carrot-Mango-Tangerine
-      - correct: 0
-        answer: Cerita-Mantan-Terindah
-      - correct: 1
-        answer: Charcot-Marie-Tooth
-      - correct: 0
-        answer: tidak ada yang benar
-    - question: Apa nama lain untuk gendang telinga ?
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Intestine
-      - correct: 1
-        answer: 'Membran Tympani '
-      - correct: 0
-        answer: Nerve
-      - correct: 0
-        answer: Ear
-    - question: Mengapa mamalia memiliki dua telinga ?
-      imageUrl: 
-      answers:
-      - correct: 1
-        answer: Untuk penentuan posisi
-      - correct: 0
-        answer: Tidak ada yang benar
-      - correct: 0
-        answer: benar semua
-      - correct: 0
-        answer: Mendengarkan
-    - question: Manakah yang benar tentang DNA ?
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Berbentuk bulat
-      - correct: 1
-        answer: Berbentuk spiral
-      - correct: 0
-        answer: Berbentuk Segitiga
-      - correct: 0
-        answer: Berbentuk tabung
-    - question: Berapa jumlah maksimum gigi yang dapat dimiliki seseorang ?
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: 18
-      - correct: 0
-        answer: 64
-      - correct: 1
-        answer: 32
-      - correct: 0
-        answer: 128
-    - question: Siapakah yang merupakan salah satu pendiri Harvard Medical School
-        ? =
-      imageUrl: 
-      answers:
-      - correct: 1
-        answer: John Warren
-      - correct: 0
-        answer: John Wick
-      - correct: 0
-        answer: John Cena
-      - correct: 0
-        answer: John Connor
-    - question: Apakah istilah medis untuk detak jantung yang lambat ?
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Amiotrofi
-      - correct: 0
-        answer: Fatty Liver
-      - correct: 0
-        answer: Hydrocele
-      - correct: 1
-        answer: Bradikardia
-    - question: "Di mana anda menemukan tulang \u201CPalu\u201D? ="
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Di Hidung
-      - correct: 1
-        answer: Di Telinga
-      - correct: 0
-        answer: Di Mulut
-      - correct: 0
-        answer: Di kaki
-    - question: Disebut apakah fobia pada salju ?
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Ophidiophobia
-      - correct: 0
-        answer: Acrophobia
-      - correct: 0
-        answer: Aerophobia
-      - correct: 1
-        answer: Chionophobia
-    - question: Apa unit terkecil yang mampu hidup dengan sendirinya ?
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Kuman
-      - correct: 0
-        answer: Bakteri
-      - correct: 1
-        answer: Sel
-      - correct: 0
-        answer: Benar semua
-    - question: Dari sistem saraf yang mana sistem saraf pusat menerima informasi
-        ?
-      imageUrl: 
-      answers:
-      - correct: 1
-        answer: Sistem Saraf Tepi
-      - correct: 0
-        answer: Sistem Saraf Pusat
-      - correct: 0
-        answer: Benar semua
       - correct: 0
         answer: Salah Semua
+      - correct: 1
+        answer: Tebu
+    - question: Siapa yang dianggap sebagai pembawa coklat ke eropa pada awal tahun
+        1500-an ? =
+      imageUrl: 
+      answers:
+      - correct: 1
+        answer: Christoper Columbus
+      - correct: 0
+        answer: Thomas Alva Edison
+      - correct: 0
+        answer: Albert Eistein
+      - correct: 0
+        answer: Alexander Graham Bell
+    - question: Dari negara manakah bir Heineken berasal ? =
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: Amerika
+      - correct: 1
+        answer: Belanda
+      - correct: 0
+        answer: Inggris
+      - correct: 0
+        answer: Rusia
+    - question: Mengandung apakah "wiener schnitzel" yang otentik ? =
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: Daging Kelinci
+      - correct: 0
+        answer: Daging Ayam
+      - correct: 1
+        answer: Daging Sapi Muda
+      - correct: 0
+        answer: Daging Kambig
+    - question: 'Apa sebutan kentang dalam bahasa Jerman ? = '
+      imageUrl: 
+      answers:
+      - correct: 1
+        answer: 'Kartoffel '
+      - correct: 0
+        answer: Mandel
+      - correct: 0
+        answer: Apfel
+      - correct: 0
+        answer: itrone
+    - question: Manakah yang merupakan makanan khas dari Nusa Tenggara Timur ? =
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: Singkong
+      - correct: 0
+        answer: Kentang
+      - correct: 0
+        answer: Keju
+      - correct: 1
+        answer: 'Jagung Bose '
+    - question: 'Manakah dari hidangan tradisional di bawah ini yang bahan utamanya
+        singkong ? = '
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: Bakmi jawa
+      - correct: 0
+        answer: Mi Aceh
+      - correct: 1
+        answer: Gaplek
+      - correct: 0
+        answer: Mi Kocok
+    - question: "Manakah yang merupakan versi besar dari pasta isi \u201CTortellini\u201D
+        ? = "
+      imageUrl: 
+      answers:
+      - correct: 1
+        answer: Tortelloni
+      - correct: 0
+        answer: Tritoleena
+      - correct: 0
+        answer: torteellone
+      - correct: 0
+        answer: Trotellana
+    - question: Apakah nama alat rumah tangga antik ini ?
+      imageUrl: penggiling
+      answers:
+      - correct: 0
+        answer: Penggiling Tebu
+      - correct: 0
+        answer: Penggiling Molen
+      - correct: 1
+        answer: 'Penggiling Kopi '
+      - correct: 0
+        answer: Penggiling Padi
+    - question: Apa saja yang terkandung dalam cokelat ini ? =
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: Polong dan Almond
+      - correct: 1
+        answer: Nougat dan Almond
+      - correct: 0
+        answer: Almond dan Bubuk Cokelat
+      - correct: 0
+        answer: Benar Semua
+    - question: Bahan-bahan apakah yang terkandung dalam mayones ?
+      imageUrl: 
+      answers:
+      - correct: 1
+        answer: Kuning Telur dan Minyak
+      - correct: 0
+        answer: Tepung dan Kuning Telur
+      - correct: 0
+        answer: Pewarna Makanan dan Minyak
+      - correct: 0
+        answer: Susu dan Minyak
+    - question: "Apa perusahaan yang memproduksi energy \u201CBurn Intens Energy\u201D
+        ? "
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: Fanta
+      - correct: 0
+        answer: Sprite
+      - correct: 0
+        answer: Pepsi
+      - correct: 1
+        answer: Coca-cola
+    - question: "Merupakan contoh dari benda apakah \u201CTilsiter\u201D itu ?"
+      imageUrl: 
+      answers:
+      - correct: 1
+        answer: Keju
+      - correct: 0
+        answer: Susu
+      - correct: 0
+        answer: Jagung
+      - correct: 0
+        answer: Pop Corn
+    - question: Tanaman apakah ini ?
+      imageUrl: tanaman
+      answers:
+      - correct: 0
+        answer: Buah Naga
+      - correct: 0
+        answer: Manggis
+      - correct: 1
+        answer: Artichoke
+      - correct: 0
+        answer: Srikaya
+    - question: "Di Negara manakah :Kebbe trabolsie\u201D merupakan hidangan nasional
+        ?"
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: Afrika
+      - correct: 1
+        answer: Libanon
+      - correct: 0
+        answer: Australia
+      - correct: 0
+        answer: Malaysia

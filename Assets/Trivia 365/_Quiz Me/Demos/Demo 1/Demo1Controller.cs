@@ -119,6 +119,8 @@ public class Demo1Controller : MonoBehaviour
     public GameObject UniquecodePanel;
     [Tooltip("The create arena panel")]
     public GameObject CreateArenaPanel;
+    [Tooltip("The histori arena panel")]
+    public GameObject HistoriArenaPanel;
     [Tooltip("The topbar text")]
     public Text TopBarText;
     [Tooltip("The avatar display component")]
@@ -909,6 +911,11 @@ public class Demo1Controller : MonoBehaviour
         UniquecodePanel.SetActive(true);
     }
 
+    public void ShowHistoriArenaPanel()
+    {
+        HistoriArenaPanel.SetActive(true);
+    }
+
     public void ShowCreateArenaPanel()
     {
         CreateArenaPanel.SetActive(true);
@@ -926,6 +933,11 @@ public class Demo1Controller : MonoBehaviour
     public void CloseUnicquecodePanel()
     {
         UniquecodePanel.SetActive(false);
+    }
+
+    public void CloseHistoriArenaPanel()
+    {
+        HistoriArenaPanel.SetActive(false);
     }
 
     public void DeleteCache()
