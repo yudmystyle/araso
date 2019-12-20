@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestionDatabase>
+	<Questions>
+		<Question>Masalah apa yang dialami jika Anda memerlukan "Xerodent" ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Mimisan</Choices>
+			<Choices correct="false">Batuk</Choices>
+			<Choices correct="false">Demam</Choices>
+			<Choices correct="true">Mulut Kering</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Obat manakah yang digunakan untuk mengobati epilepsi ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Betadine</Choices>
+			<Choices correct="false">Alkohol</Choices>
+			<Choices correct="true">Carbatrol</Choices>
+			<Choices correct="false">Loratadine</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Reaksi Jarisch-Herxheimer dapat terjadi saat menjalani pengobatan penyakit =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">TBC</Choices>
+			<Choices correct="true">Sifilis</Choices>
+			<Choices correct="false">Kanker</Choices>
+			<Choices correct="false">Sakit Kepala</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Digunakan dalam pengobatan apakah jarum ini ? =</Question>
+		<Image>jarum</Image>
+		<Answers>
+			<Choices correct="false">Bekam</Choices>
+			<Choices correct="false">Gurah</Choices>
+			<Choices correct="false">Refleksi</Choices>
+			<Choices correct="true">Akupuntur</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Apa makna akronim PRN yang tertulis pada resep ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Sesuai Kebutuhan </Choices>
+			<Choices correct="false">Kebutuhan Primary</Choices>
+			<Choices correct="false">Kebutuhan sekunder</Choices>
+			<Choices correct="false">tidak ada kebutuhan</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>CMT merupakan singkatan umum untuk penyakit saraf langka. Apa kepanjangannya ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Carrot-Mango-Tangerine</Choices>
+			<Choices correct="false">Cerita-Mantan-Terindah</Choices>
+			<Choices correct="true">Charcot-Marie-Tooth</Choices>
+			<Choices correct="false">tidak ada yang benar</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Apa nama lain untuk gendang telinga ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Intestine</Choices>
+			<Choices correct="true">Membran Tympani </Choices>
+			<Choices correct="false">Nerve</Choices>
+			<Choices correct="false">Ear</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Mengapa mamalia memiliki dua telinga ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Untuk penentuan posisi</Choices>
+			<Choices correct="false">Tidak ada yang benar</Choices>
+			<Choices correct="false">benar semua</Choices>
+			<Choices correct="false">Mendengarkan</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Manakah yang benar tentang DNA ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Berbentuk bulat</Choices>
+			<Choices correct="true">Berbentuk spiral</Choices>
+			<Choices correct="false">Berbentuk Segitiga</Choices>
+			<Choices correct="false">Berbentuk tabung</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Berapa jumlah maksimum gigi yang dapat dimiliki seseorang ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">18</Choices>
+			<Choices correct="false">64</Choices>
+			<Choices correct="true">32</Choices>
+			<Choices correct="false">128</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Siapakah yang merupakan salah satu pendiri Harvard Medical School ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">John Warren</Choices>
+			<Choices correct="false">John Wick</Choices>
+			<Choices correct="false">John Cena</Choices>
+			<Choices correct="false">John Connor</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Apakah istilah medis untuk detak jantung yang lambat ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Amiotrofi</Choices>
+			<Choices correct="false">Fatty Liver</Choices>
+			<Choices correct="false">Hydrocele</Choices>
+			<Choices correct="true">Bradikardia</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Di mana anda menemukan tulang “Palu”? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Di Hidung</Choices>
+			<Choices correct="true">Di Telinga</Choices>
+			<Choices correct="false">Di Mulut</Choices>
+			<Choices correct="false">Di kaki</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Disebut apakah fobia pada salju ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Ophidiophobia</Choices>
+			<Choices correct="false">Acrophobia</Choices>
+			<Choices correct="false">Aerophobia</Choices>
+			<Choices correct="true">Chionophobia</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Apa unit terkecil yang mampu hidup dengan sendirinya ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Kuman</Choices>
+			<Choices correct="false">Bakteri</Choices>
+			<Choices correct="true">Sel</Choices>
+			<Choices correct="false">Benar semua</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Dari sistem saraf yang mana sistem saraf pusat menerima informasi ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Sistem Saraf Tepi</Choices>
+			<Choices correct="false">Sistem Saraf Pusat</Choices>
+			<Choices correct="false">Benar semua</Choices>
+			<Choices correct="false">Salah Semua</Choices>
+		</Answers>
+	</Questions>
+</QuestionDatabase>

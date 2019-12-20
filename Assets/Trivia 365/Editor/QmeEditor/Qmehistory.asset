@@ -14,170 +14,183 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     questions:
-    - question: 'Ada 10 buku. 8 buku bersampul coklat. Persentase buku bersampul coklat
-        adalah '
+    - question: Masalah apa yang dialami jika Anda memerlukan "Xerodent" ? =
       imageUrl: 
       answers:
       - correct: 0
-        answer: 60%
+        answer: Mimisan
+      - correct: 0
+        answer: Batuk
+      - correct: 0
+        answer: Demam
       - correct: 1
-        answer: 80%
-      - correct: 0
-        answer: 70%
-      - correct: 0
-        answer: 50%
-    - question: "Bentuk persen dari 3,5 adalah \u2026."
+        answer: Mulut Kering
+    - question: Obat manakah yang digunakan untuk mengobati epilepsi ? =
       imageUrl: 
       answers:
       - correct: 0
-        answer: 35%
+        answer: Betadine
+      - correct: 0
+        answer: Alkohol
       - correct: 1
-        answer: 350%
+        answer: Carbatrol
       - correct: 0
-        answer: 3.500%
-      - correct: 0
-        answer: 3,5%
-    - question: "Pecahan 0,75 bila diubah menjadi pecahan biasa adalah \u2026."
-      imageUrl: 
-      answers:
-      - correct: 1
-        answer: 3/4
-      - correct: 0
-        answer: 2/3
-      - correct: 0
-        answer: 4/5
-      - correct: 0
-        answer: 1/2
-    - question: "Bentuk desimal dari 3/8 adalah \u2026."
+        answer: Loratadine
+    - question: Reaksi Jarisch-Herxheimer dapat terjadi saat menjalani pengobatan
+        penyakit =
       imageUrl: 
       answers:
       - correct: 0
-        answer: 0,125
+        answer: TBC
       - correct: 1
-        answer: 0,375
+        answer: Sifilis
       - correct: 0
-        answer: 0,50
+        answer: Kanker
       - correct: 0
-        answer: 0,575
-    - question: 80% senilai dengan . . .
+        answer: Sakit Kepala
+    - question: Digunakan dalam pengobatan apakah jarum ini ? =
+      imageUrl: jarum.png
+      answers:
+      - correct: 0
+        answer: Bekam
+      - correct: 0
+        answer: Gurah
+      - correct: 0
+        answer: Refleksi
+      - correct: 1
+        answer: Akupuntur
+    - question: Apa makna akronim PRN yang tertulis pada resep ? =
+      imageUrl: 
+      answers:
+      - correct: 1
+        answer: 'Sesuai Kebutuhan '
+      - correct: 0
+        answer: Kebutuhan Primary
+      - correct: 0
+        answer: Kebutuhan sekunder
+      - correct: 0
+        answer: tidak ada kebutuhan
+    - question: CMT merupakan singkatan umum untuk penyakit saraf langka. Apa kepanjangannya
+        ?
       imageUrl: 
       answers:
       - correct: 0
-        answer: 1/2
+        answer: Carrot-Mango-Tangerine
       - correct: 0
-        answer: 2/3
-      - correct: 0
-        answer: 3/4
+        answer: Cerita-Mantan-Terindah
       - correct: 1
-        answer: 4/5
-    - question: "20% dari 15.000 adalah \u2026."
+        answer: Charcot-Marie-Tooth
+      - correct: 0
+        answer: tidak ada yang benar
+    - question: Apa nama lain untuk gendang telinga ?
       imageUrl: 
       answers:
       - correct: 0
-        answer: 1 500
-      - correct: 0
-        answer: 2 250
-      - correct: 0
-        answer: 2 500
+        answer: Intestine
       - correct: 1
-        answer: 3.000
-    - question: "Harga sebuah baju adalah Rp. 180.000,00. Ada potongan 15%. Harga
-        baju itu sekarang adalah \u2026."
+        answer: 'Membran Tympani '
+      - correct: 0
+        answer: Nerve
+      - correct: 0
+        answer: Ear
+    - question: Mengapa mamalia memiliki dua telinga ?
+      imageUrl: 
+      answers:
+      - correct: 1
+        answer: Untuk penentuan posisi
+      - correct: 0
+        answer: Tidak ada yang benar
+      - correct: 0
+        answer: benar semua
+      - correct: 0
+        answer: Mendengarkan
+    - question: Manakah yang benar tentang DNA ?
       imageUrl: 
       answers:
       - correct: 0
-        answer: Rp. 150.000,00
-      - correct: 0
-        answer: Rp. 152.000,00
+        answer: Berbentuk bulat
       - correct: 1
-        answer: Rp. 153.000,00
+        answer: Berbentuk spiral
       - correct: 0
-        answer: Rp. 165.000,00
-    - question: "Hasil dari 1 2/3 + 0,6 adalah \u2026."
+        answer: Berbentuk Segitiga
+      - correct: 0
+        answer: Berbentuk tabung
+    - question: Berapa jumlah maksimum gigi yang dapat dimiliki seseorang ?
       imageUrl: 
       answers:
       - correct: 0
-        answer: 1 8/30
+        answer: 18
       - correct: 0
-        answer: 1 8/15
+        answer: 64
       - correct: 1
-        answer: 2 4/15
+        answer: 32
       - correct: 0
-        answer: 2 8/15
-    - question: "4/5 : 3/4 adalah \u2026."
+        answer: 128
+    - question: Siapakah yang merupakan salah satu pendiri Harvard Medical School
+        ? =
+      imageUrl: 
+      answers:
+      - correct: 1
+        answer: John Warren
+      - correct: 0
+        answer: John Wick
+      - correct: 0
+        answer: John Cena
+      - correct: 0
+        answer: John Connor
+    - question: Apakah istilah medis untuk detak jantung yang lambat ?
       imageUrl: 
       answers:
       - correct: 0
-        answer: 12/20
+        answer: Amiotrofi
+      - correct: 0
+        answer: Fatty Liver
+      - correct: 0
+        answer: Hydrocele
       - correct: 1
-        answer: 16/15
-      - correct: 0
-        answer: 20/12
-      - correct: 0
-        answer: 15/16
-    - question: " Hasil dari 9,2 + 0,3 + 11,45 adalah \u2026."
+        answer: Bradikardia
+    - question: "Di mana anda menemukan tulang \u201CPalu\u201D? ="
       imageUrl: 
       answers:
       - correct: 0
-        answer: 19,73
-      - correct: 0
-        answer: 20
+        answer: Di Hidung
       - correct: 1
-        answer: 20,95
+        answer: Di Telinga
       - correct: 0
-        answer: 21
-    - question: "Hasil dari 1,25 : 0,20 adalah \u2026."
+        answer: Di Mulut
+      - correct: 0
+        answer: Di kaki
+    - question: Disebut apakah fobia pada salju ?
       imageUrl: 
       answers:
       - correct: 0
-        answer: 5,25
+        answer: Ophidiophobia
       - correct: 0
-        answer: 6,15
+        answer: Acrophobia
+      - correct: 0
+        answer: Aerophobia
       - correct: 1
-        answer: 6,25
-      - correct: 0
-        answer: 6,35
-    - question: Hasil dari 0,81 x 5,9 = n n = . . . .
+        answer: Chionophobia
+    - question: Apa unit terkecil yang mampu hidup dengan sendirinya ?
       imageUrl: 
       answers:
       - correct: 0
-        answer: 0,4779
+        answer: Kuman
+      - correct: 0
+        answer: Bakteri
       - correct: 1
-        answer: 4,779
+        answer: Sel
       - correct: 0
-        answer: 47,79
-      - correct: 0
-        answer: '477,9  '
-    - question: "Bentuk pecahan campuran dari 45/7 adalah \u2026."
+        answer: Benar semua
+    - question: Dari sistem saraf yang mana sistem saraf pusat menerima informasi
+        ?
       imageUrl: 
       answers:
-      - correct: 0
-        answer: 6 2/7
       - correct: 1
-        answer: 6 3/7
+        answer: Sistem Saraf Tepi
       - correct: 0
-        answer: 6 4/7
+        answer: Sistem Saraf Pusat
       - correct: 0
-        answer: 6 5/7
-    - question: "Hasil dari 4,2 : 15% = n, maka n = \u2026."
-      imageUrl: 
-      answers:
+        answer: Benar semua
       - correct: 0
-        answer: 26,2
-      - correct: 0
-        answer: 27
-      - correct: 0
-        answer: ' 27,2'
-      - correct: 1
-        answer: 28
-    - question: "Bentuk persen dari 3/15 adalah \u2026."
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: 15 %
-      - correct: 1
-        answer: 20 %
-      - correct: 0
-        answer: 25 %
-      - correct: 0
-        answer: 30 %
+        answer: Salah Semua

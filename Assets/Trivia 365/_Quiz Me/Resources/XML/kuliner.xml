@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestionDatabase>
+	<Questions>
+		<Question>Daging apa yang anda dapatkan jika memesan "cochon" di Perancis ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Daging Sapi</Choices>
+			<Choices correct="false">Daging Anjing</Choices>
+			<Choices correct="true">Daging Babi</Choices>
+			<Choices correct="false">Daging Kelinci</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Apa bahan utama dalam minuman "Bloody Mary" ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Just Wortel</Choices>
+			<Choices correct="true">Jus Tomat</Choices>
+			<Choices correct="false">Jus Semangka</Choices>
+			<Choices correct="false">Jus Buah Naga</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Tanaman apakah yang di gunakan dalam pembuatan minumn rum ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Anggur</Choices>
+			<Choices correct="false">Alkohol</Choices>
+			<Choices correct="false">Salah Semua</Choices>
+			<Choices correct="true">Tebu</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Siapa yang dianggap sebagai pembawa coklat ke eropa pada awal tahun 1500-an ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Christoper Columbus</Choices>
+			<Choices correct="false">Thomas Alva Edison</Choices>
+			<Choices correct="false">Albert Eistein</Choices>
+			<Choices correct="false">Alexander Graham Bell</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Dari negara manakah bir Heineken berasal ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Amerika</Choices>
+			<Choices correct="true">Belanda</Choices>
+			<Choices correct="false">Inggris</Choices>
+			<Choices correct="false">Rusia</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Mengandung apakah "wiener schnitzel" yang otentik ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Daging Kelinci</Choices>
+			<Choices correct="false">Daging Ayam</Choices>
+			<Choices correct="true">Daging Sapi Muda</Choices>
+			<Choices correct="false">Daging Kambig</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Apa sebutan kentang dalam bahasa Jerman ? = </Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Kartoffel </Choices>
+			<Choices correct="false">Mandel</Choices>
+			<Choices correct="false">Apfel</Choices>
+			<Choices correct="false">itrone</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Manakah yang merupakan makanan khas dari Nusa Tenggara Timur ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Singkong</Choices>
+			<Choices correct="false">Kentang</Choices>
+			<Choices correct="false">Keju</Choices>
+			<Choices correct="true">Jagung Bose </Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Manakah dari hidangan tradisional di bawah ini yang bahan utamanya singkong ? = </Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Bakmi jawa</Choices>
+			<Choices correct="false">Mi Aceh</Choices>
+			<Choices correct="true">Gaplek</Choices>
+			<Choices correct="false">Mi Kocok</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Manakah yang merupakan versi besar dari pasta isi “Tortellini” ? = </Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Tortelloni</Choices>
+			<Choices correct="false">Tritoleena</Choices>
+			<Choices correct="false">torteellone</Choices>
+			<Choices correct="false">Trotellana</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Apakah nama alat rumah tangga antik ini ?</Question>
+		<Image>penggiling</Image>
+		<Answers>
+			<Choices correct="false">Penggiling Tebu</Choices>
+			<Choices correct="false">Penggiling Molen</Choices>
+			<Choices correct="true">Penggiling Kopi </Choices>
+			<Choices correct="false">Penggiling Padi</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Apa saja yang terkandung dalam cokelat ini ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Polong dan Almond</Choices>
+			<Choices correct="true">Nougat dan Almond</Choices>
+			<Choices correct="false">Almond dan Bubuk Cokelat</Choices>
+			<Choices correct="false">Benar Semua</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Bahan-bahan apakah yang terkandung dalam mayones ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Kuning Telur dan Minyak</Choices>
+			<Choices correct="false">Tepung dan Kuning Telur</Choices>
+			<Choices correct="false">Pewarna Makanan dan Minyak</Choices>
+			<Choices correct="false">Susu dan Minyak</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Apa perusahaan yang memproduksi energy “Burn Intens Energy” ? </Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Fanta</Choices>
+			<Choices correct="false">Sprite</Choices>
+			<Choices correct="false">Pepsi</Choices>
+			<Choices correct="true">Coca-cola</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Merupakan contoh dari benda apakah “Tilsiter” itu ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Keju</Choices>
+			<Choices correct="false">Susu</Choices>
+			<Choices correct="false">Jagung</Choices>
+			<Choices correct="false">Pop Corn</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Tanaman apakah ini ?</Question>
+		<Image>tanaman</Image>
+		<Answers>
+			<Choices correct="false">Buah Naga</Choices>
+			<Choices correct="false">Manggis</Choices>
+			<Choices correct="true">Artichoke</Choices>
+			<Choices correct="false">Srikaya</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Di Negara manakah :Kebbe trabolsie” merupakan hidangan nasional ?</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Afrika</Choices>
+			<Choices correct="true">Libanon</Choices>
+			<Choices correct="false">Australia</Choices>
+			<Choices correct="false">Malaysia</Choices>
+		</Answers>
+	</Questions>
+</QuestionDatabase>
