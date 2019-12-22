@@ -43,8 +43,6 @@ public class ButtonListControl : MonoBehaviour
         WWW www = new WWW("localhost:8000/historiarena");
         yield return www;
 
-        //string jsonString = "{\r\n  \"data\": [\r\n    {\r\n      \"id_arena\": 1,\r\n      \"id_paketsoal\": 1,\r\n      \"uniquecode\": \"jokodfs\",\r\n      \"waktu_mulai\": \"2019-12-22 02:00:00\",\r\n      \"waktu_selesai\": \"2019-12-25 12:00:00\",\r\n      \"score\": \"\"\r\n    },\r\n    {\r\n      \"id_arena\": 2,\r\n      \"id_paketsoal\": 2,\r\n      \"uniquecode\": \"jrrodfs\",\r\n      \"waktu_mulai\": \"2019-12-23 12:00:00\",\r\n      \"waktu_selesai\": \"2019-12-25 12:00:00\",\r\n      \"score\": \"\"\r\n    },\r\n    {\r\n      \"id_arena\": 3,\r\n      \"id_paketsoal\": 3,\r\n      \"uniquecode\": \"jokwwfs\",\r\n      \"waktu_mulai\": \"2019-12-23 12:00:00\",\r\n      \"waktu_selesai\": \"2019-12-25 12:00:00\",\r\n      \"score\": \"\"\r\n    }\r\n  ] \r\n}";
-
         ArenaObject arenaObject = new ArenaObject();
         arenaObject = JsonUtility.FromJson<ArenaObject>(www.text);
         //Debug.Log(arenaObject.data.Count);
@@ -67,7 +65,7 @@ public class ButtonListControl : MonoBehaviour
         }
     }
 
-    public void ButtonClicked(int idSoal, int idArena)
+    public void JoinButtonClicked(int idSoal, int idArena)
     {
         Debug.Log(idSoal);
 
@@ -83,5 +81,10 @@ public class ButtonListControl : MonoBehaviour
             Controller.PlayGame("Matematika", "", "matematika", 2, "", "", "", true);
         }
     }
-
+    
+    public void DetailButtonClicked(int idArena)
+    {
+        Controller.CloseHistoriArenaPanel();
+        PlayerPrefs.SetInt("idArena", idArena);
+    }
 }

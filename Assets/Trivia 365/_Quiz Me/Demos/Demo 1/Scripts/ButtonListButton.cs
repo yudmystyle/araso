@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,6 +16,8 @@ public class ButtonListButton : MonoBehaviour
     private Text score;
     [SerializeField]
     private Button joinButton;
+    [SerializeField]
+    private Button detailButton;
 
     [SerializeField]
     ButtonListControl buttonListControl;
@@ -45,12 +45,18 @@ public class ButtonListButton : MonoBehaviour
             //Click Action
             currentIdSoal = idSoal;
             this.idArena = idArena;
-            joinButton.onClick.AddListener(TaskOnClick);
+            joinButton.onClick.AddListener(JoinOnClick);
+            detailButton.onClick.AddListener(DetailOnClick);
         }
     }
 
-    public void TaskOnClick()
+    public void JoinOnClick()
     {
-        buttonListControl.ButtonClicked(currentIdSoal, idArena);
+        buttonListControl.JoinButtonClicked(currentIdSoal, idArena);
+    }
+
+    public void DetailOnClick()
+    {
+        buttonListControl.DetailButtonClicked(idArena);
     }
 }

@@ -57,6 +57,7 @@ public class QMeOneInspector : Editor
     SerializedProperty UniquecodePanel = null;
     SerializedProperty CreateArenaPanel = null;
     SerializedProperty HistoriArenaPanel = null;
+    SerializedProperty DetailArenaPanel = null;
     SerializedProperty TopBarText = null;
 	SerializedProperty ProfileAvatar = null;
 	SerializedProperty Username = null;
@@ -148,6 +149,7 @@ public class QMeOneInspector : Editor
         UniquecodePanel = serializedObject.FindProperty("UniquecodePanel");
         CreateArenaPanel = serializedObject.FindProperty("CreateArenaPanel");
         HistoriArenaPanel = serializedObject.FindProperty("HistoriArenaPanel");
+        DetailArenaPanel = serializedObject.FindProperty("DetailArenaPanel");
         TopBarText = serializedObject.FindProperty("TopBarText");
 		ProfileAvatar = serializedObject.FindProperty("ProfileAvatar");
 		Username = serializedObject.FindProperty("Username");
@@ -577,6 +579,7 @@ public class QMeOneInspector : Editor
             EditorGUILayout.PropertyField(UniquecodePanel);
             EditorGUILayout.PropertyField(CreateArenaPanel);
             EditorGUILayout.PropertyField(HistoriArenaPanel);
+            EditorGUILayout.PropertyField(DetailArenaPanel);
             EditorGUILayout.PropertyField(TopBarText);
 			EditorGUILayout.PropertyField(ProfileAvatar);
 			EditorGUILayout.PropertyField(Username);

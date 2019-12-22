@@ -73,3 +73,15 @@ MonoBehaviour:
         answer: Novak Djokovic
       - correct: 0
         answer: Pete Sampras
+    - question: 'Siapakah atlet surfing indonesia yang pernah mengalahkan juara dunia
+        surfing 8 kali, Kelly Slater ? = '
+      imageUrl: 
+      answers:
+      - correct: 0
+        answer: 
+      - correct: 0
+        answer: 
+      - correct: 1
+        answer: 'Dede Suryana '
+      - correct: 0
+        answer: 
