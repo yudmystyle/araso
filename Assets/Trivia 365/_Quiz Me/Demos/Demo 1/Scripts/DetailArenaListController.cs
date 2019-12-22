@@ -45,7 +45,7 @@ public class DetailArenaListController : MonoBehaviour
     {
         WWWForm form = new WWWForm();
         form.AddField("id_arena", PlayerPrefs.GetInt("idArena"));
-        WWW www = new WWW("localhost:8000/detailarena", form);
+        WWW www = new WWW(ApiConstant.SERVER + "/detailarena", form);
         yield return www;
 
         Debug.Log(www.text);

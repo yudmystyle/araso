@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ButtonListControl : MonoBehaviour
@@ -40,7 +39,7 @@ public class ButtonListControl : MonoBehaviour
 
     IEnumerator GetArena()
     {
-        WWW www = new WWW("localhost:8000/historiarena");
+        WWW www = new WWW(ApiConstant.SERVER + "/historiarena");
         yield return www;
 
         ArenaObject arenaObject = new ArenaObject();

@@ -16,7 +16,7 @@ public class Uniquecode : MonoBehaviour
     {
         WWWForm form = new WWWForm();
         form.AddField("uniquecode", uniquecodeField.text);
-        WWW www = new WWW("localhost:8000/joinarena", form);
+        WWW www = new WWW(ApiConstant.SERVER + "/joinarena", form);
         yield return www;
         if (www.text.Contains("\"success\":1"))
         {

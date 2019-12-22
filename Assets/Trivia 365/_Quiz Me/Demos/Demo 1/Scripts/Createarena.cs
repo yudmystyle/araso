@@ -110,7 +110,7 @@ public class Createarena : MonoBehaviour
         Debug.Log("waktu mulai :" + waktuMulai);
         Debug.Log("waktu selesai :" + waktuSelesai);
 
-        WWW www = new WWW("localhost:8000/createarena", form);
+        WWW www = new WWW(ApiConstant.SERVER + "/createarena", form);
         yield return www;
         if (www.text.Contains("\"success\":1"))
         {

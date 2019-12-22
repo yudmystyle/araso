@@ -27,7 +27,7 @@ public class Registrasi : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("name", usernameField.text);
         form.AddField("password", passwordField.text);
-        WWW www = new WWW("localhost:8000/register", form);
+        WWW www = new WWW(ApiConstant.SERVER + "/register", form);
         yield return www;
         if (www.text.Contains("\"success\":1"))
         {

@@ -625,7 +625,7 @@ public class Demo1Controller : MonoBehaviour
 
     public void Logout()
     {
-        WWW www = new WWW("localhost:8000/logout");
+        WWW www = new WWW(ApiConstant.SERVER + "/logout");
         PlayerPrefs.DeleteAll();
         UnityEngine.SceneManagement.SceneManager.LoadScene("mainmenu");
     }
@@ -1529,7 +1529,7 @@ public class Demo1Controller : MonoBehaviour
         form.AddField("id_arena", PlayerPrefs.GetInt("idArena"));
         form.AddField("score", score.ToString());
 
-        WWW www = new WWW("localhost:8000/submitarena", form);
+        WWW www = new WWW(ApiConstant.SERVER + "/submitarena", form);
         yield return www;
 
         Debug.Log("Submit Arena : " + www.text);

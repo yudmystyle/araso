@@ -27,7 +27,7 @@ public class Login : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("name", usernameField.text);
         form.AddField("password", passwordField.text);
-        WWW www = new WWW("localhost:8000/login", form);
+        WWW www = new WWW(ApiConstant.SERVER + "/login", form);
         yield return www;
         if (www.text.Contains("\"success\":1"))
         {
