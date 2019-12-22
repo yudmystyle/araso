@@ -14,196 +14,62 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     questions:
-    - question: Daging apa yang anda dapatkan jika memesan "cochon" di Perancis ?
-        =
+    - question: Apa nama aktifitas di gambar ini ? =
+      imageUrl: flyboarding
+      answers:
+      - correct: 1
+        answer: Flyboarding
+      - correct: 0
+        answer: Skateboard
+      - correct: 0
+        answer: Jetski
+      - correct: 0
+        answer: Flyover
+    - question: Berapa kapasitas Stadion Utama Gelora Bung Karno ? =
       imageUrl: 
       answers:
       - correct: 0
-        answer: Daging Sapi
-      - correct: 0
-        answer: Daging Anjing
+        answer: 8.800 Penonton
       - correct: 1
-        answer: Daging Babi
+        answer: 88.000 Penonton
       - correct: 0
-        answer: Daging Kelinci
-    - question: Apa bahan utama dalam minuman "Bloody Mary" ? =
+        answer: 880 Penonton
+      - correct: 0
+        answer: 880.000 Penonton
+    - question: Berapa banyak medali emas Olimpiade yang telah dimenangkan perenang
+        Amerika Michael Phelps ? =
       imageUrl: 
       answers:
       - correct: 0
-        answer: Just Wortel
+        answer: 17
+      - correct: 0
+        answer: 19
       - correct: 1
-        answer: Jus Tomat
+        answer: 18
       - correct: 0
-        answer: Jus Semangka
-      - correct: 0
-        answer: Jus Buah Naga
-    - question: Tanaman apakah yang di gunakan dalam pembuatan minumn rum ? =
+        answer: 20
+    - question: Pada babak kualifikasi Euro 2007 UEFA, striker Swedia Markus Allback
+        Mencetak gol yang masuk rekor gol tercepat. Berapa detik game baru berlangsung
+        saat itu ? =
       imageUrl: 
       answers:
       - correct: 0
-        answer: Anggur
+        answer: 30
       - correct: 0
-        answer: Alkohol
+        answer: 25
       - correct: 0
-        answer: Salah Semua
+        answer: 40
       - correct: 1
-        answer: Tebu
-    - question: Siapa yang dianggap sebagai pembawa coklat ke eropa pada awal tahun
-        1500-an ? =
+        answer: 35
+    - question: Petenis Swiss manakah yang disebut sebagai "The Maestro" yang lahir
+        tahun 1981 dan memenangkan 17 turnamen tenis Grand Slam ? =
       imageUrl: 
       answers:
       - correct: 1
-        answer: Christoper Columbus
+        answer: Roger Federer
       - correct: 0
-        answer: Thomas Alva Edison
+        answer: Rafael Nadal
       - correct: 0
-        answer: Albert Eistein
+        answer: Novak Djokovic
       - correct: 0
-        answer: Alexander Graham Bell
-    - question: Dari negara manakah bir Heineken berasal ? =
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Amerika
-      - correct: 1
-        answer: Belanda
-      - correct: 0
-        answer: Inggris
-      - correct: 0
-        answer: Rusia
-    - question: Mengandung apakah "wiener schnitzel" yang otentik ? =
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Daging Kelinci
-      - correct: 0
-        answer: Daging Ayam
-      - correct: 1
-        answer: Daging Sapi Muda
-      - correct: 0
-        answer: Daging Kambig
-    - question: 'Apa sebutan kentang dalam bahasa Jerman ? = '
-      imageUrl: 
-      answers:
-      - correct: 1
-        answer: 'Kartoffel '
-      - correct: 0
-        answer: Mandel
-      - correct: 0
-        answer: Apfel
-      - correct: 0
-        answer: itrone
-    - question: Manakah yang merupakan makanan khas dari Nusa Tenggara Timur ? =
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Singkong
-      - correct: 0
-        answer: Kentang
-      - correct: 0
-        answer: Keju
-      - correct: 1
-        answer: 'Jagung Bose '
-    - question: 'Manakah dari hidangan tradisional di bawah ini yang bahan utamanya
-        singkong ? = '
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Bakmi jawa
-      - correct: 0
-        answer: Mi Aceh
-      - correct: 1
-        answer: Gaplek
-      - correct: 0
-        answer: Mi Kocok
-    - question: "Manakah yang merupakan versi besar dari pasta isi \u201CTortellini\u201D
-        ? = "
-      imageUrl: 
-      answers:
-      - correct: 1
-        answer: Tortelloni
-      - correct: 0
-        answer: Tritoleena
-      - correct: 0
-        answer: torteellone
-      - correct: 0
-        answer: Trotellana
-    - question: Apakah nama alat rumah tangga antik ini ?
-      imageUrl: penggiling
-      answers:
-      - correct: 0
-        answer: Penggiling Tebu
-      - correct: 0
-        answer: Penggiling Molen
-      - correct: 1
-        answer: 'Penggiling Kopi '
-      - correct: 0
-        answer: Penggiling Padi
-    - question: Apa saja yang terkandung dalam cokelat ini ? =
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Polong dan Almond
-      - correct: 1
-        answer: Nougat dan Almond
-      - correct: 0
-        answer: Almond dan Bubuk Cokelat
-      - correct: 0
-        answer: Benar Semua
-    - question: Bahan-bahan apakah yang terkandung dalam mayones ?
-      imageUrl: 
-      answers:
-      - correct: 1
-        answer: Kuning Telur dan Minyak
-      - correct: 0
-        answer: Tepung dan Kuning Telur
-      - correct: 0
-        answer: Pewarna Makanan dan Minyak
-      - correct: 0
-        answer: Susu dan Minyak
-    - question: "Apa perusahaan yang memproduksi energy \u201CBurn Intens Energy\u201D
-        ? "
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Fanta
-      - correct: 0
-        answer: Sprite
-      - correct: 0
-        answer: Pepsi
-      - correct: 1
-        answer: Coca-cola
-    - question: "Merupakan contoh dari benda apakah \u201CTilsiter\u201D itu ?"
-      imageUrl: 
-      answers:
-      - correct: 1
-        answer: Keju
-      - correct: 0
-        answer: Susu
-      - correct: 0
-        answer: Jagung
-      - correct: 0
-        answer: Pop Corn
-    - question: Tanaman apakah ini ?
-      imageUrl: tanaman
-      answers:
-      - correct: 0
-        answer: Buah Naga
-      - correct: 0
-        answer: Manggis
-      - correct: 1
-        answer: Artichoke
-      - correct: 0
-        answer: Srikaya
-    - question: "Di Negara manakah :Kebbe trabolsie\u201D merupakan hidangan nasional
-        ?"
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: Afrika
-      - correct: 1
-        answer: Libanon
-      - correct: 0
-        answer: Australia
-      - correct: 0
-        answer: Malaysia
+        answer: Pete Sampras

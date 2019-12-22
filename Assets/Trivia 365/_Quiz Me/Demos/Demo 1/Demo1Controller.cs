@@ -1509,6 +1509,23 @@ public class Demo1Controller : MonoBehaviour
         //LifeFill.transform.parent.gameObject.SetActive(true);
     }
 
+    //Submit Arena
+    IEnumerator SubmitArena(float score)
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("id_arena", PlayerPrefs.GetInt("idArena"));
+        form.AddField("score", score.ToString());
+
+        WWW www = new WWW("localhost:8000/submitarena", form);
+        yield return www;
+
+        Debug.Log("Submit Arena : " + www.text);
+
+        //Set Arena Offline Again
+        PlayerPrefs.SetInt("isArenaOnline", 0);
+        PlayerPrefs.SetInt("isDataUpdated", 1);
+    }
+
     //Checks if we have available lives and either end the game or continue
     void CheckLives()
     {
@@ -1530,6 +1547,12 @@ public class Demo1Controller : MonoBehaviour
             FinalScore.text = score.ToString("0");
             //Display highscore
             CurHighscore.text = "Highscore: " + PlayerPrefs.GetFloat(hScorePref, 0).ToString("0");
+
+            //Call API Submit Arena
+            if (PlayerPrefs.GetInt("isArenaOnline", 0) == 1)
+            {
+                StartCoroutine(SubmitArena(PlayerPrefs.GetFloat(hScorePref, 0)));
+            }
         }
         else
         {
@@ -1561,6 +1584,12 @@ public class Demo1Controller : MonoBehaviour
                 //Display scores
                 CurHighscore.text = "\nScore: " + score.ToString("0") + "\n" +
                 "Highscore: " + PlayerPrefs.GetFloat(hScorePref, 0).ToString("0");
+
+                //Call API Submit Arena
+                if (PlayerPrefs.GetInt("isArenaOnline", 0) == 1)
+                {
+                    StartCoroutine(SubmitArena(PlayerPrefs.GetFloat(hScorePref, 0)));
+                }
             }
         }
 

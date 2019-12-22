@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestionDatabase>
+	<Questions>
+		<Question>Apa nama aktifitas di gambar ini ? =</Question>
+		<Image>flyboarding</Image>
+		<Answers>
+			<Choices correct="true">Flyboarding</Choices>
+			<Choices correct="false">Skateboard</Choices>
+			<Choices correct="false">Jetski</Choices>
+			<Choices correct="false">Flyover</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Berapa kapasitas Stadion Utama Gelora Bung Karno ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">8.800 Penonton</Choices>
+			<Choices correct="true">88.000 Penonton</Choices>
+			<Choices correct="false">880 Penonton</Choices>
+			<Choices correct="false">880.000 Penonton</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Berapa banyak medali emas Olimpiade yang telah dimenangkan perenang Amerika Michael Phelps ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">17</Choices>
+			<Choices correct="false">19</Choices>
+			<Choices correct="true">18</Choices>
+			<Choices correct="false">20</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Pada babak kualifikasi Euro 2007 UEFA, striker Swedia Markus Allback Mencetak gol yang masuk rekor gol tercepat. Berapa detik game baru berlangsung saat itu ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">30</Choices>
+			<Choices correct="false">25</Choices>
+			<Choices correct="false">40</Choices>
+			<Choices correct="true">35</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Petenis Swiss manakah yang disebut sebagai "The Maestro" yang lahir tahun 1981 dan memenangkan 17 turnamen tenis Grand Slam ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Roger Federer</Choices>
+			<Choices correct="false">Rafael Nadal</Choices>
+			<Choices correct="false">Novak Djokovic</Choices>
+			<Choices correct="false">Pete Sampras</Choices>
+		</Answers>
+	</Questions>
+</QuestionDatabase>
