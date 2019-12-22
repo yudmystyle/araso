@@ -366,7 +366,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 108260490}
-        m_MethodName: CloseCachePanel
+        m_MethodName: CloseHistoriArenaPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2167,7 +2167,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 108260490}
-        m_MethodName: CloseCreateArenaPanel
+        m_MethodName: CloseHistoriArenaPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20052,7 +20052,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 108260490}
-        m_MethodName: StartGame
+        m_MethodName: ShowHistoriArenaPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23501,6 +23501,10 @@ PrefabInstance:
       propertyPath: CreateArenaPanel
       value: 
       objectReference: {fileID: 706306438}
+    - target: {fileID: 11470966, guid: 770452f11e862a24b98a81b4308f1589, type: 3}
+      propertyPath: HistoriArenaPanel
+      value: 
+      objectReference: {fileID: 11074904}
     - target: {fileID: 114299515619992290, guid: 770452f11e862a24b98a81b4308f1589,
         type: 3}
       propertyPath: CategoryList.Array.size

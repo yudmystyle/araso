@@ -24,7 +24,6 @@ public class ButtonListControl : MonoBehaviour
 
         ArenaObject arenaObject = new ArenaObject();
         arenaObject = JsonUtility.FromJson<ArenaObject>(www.text);
-        Debug.Log(arenaObject.data.Count);
         for (int i = 0; i < arenaObject.data.Count + 1; i++)
         {
             GameObject area = Instantiate(areaTemplate) as GameObject;
