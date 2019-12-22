@@ -1544,7 +1544,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00
+  m_Text: 
 --- !u!222 &115587753
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2221,7 +2221,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00
+  m_Text: 
 --- !u!222 &197791683
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5036,69 +5036,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: 01
-      m_Image: {fileID: 0}
-    - m_Text: 02
-      m_Image: {fileID: 0}
-    - m_Text: 03
-      m_Image: {fileID: 0}
-    - m_Text: 04
-      m_Image: {fileID: 0}
-    - m_Text: 05
-      m_Image: {fileID: 0}
-    - m_Text: 06
-      m_Image: {fileID: 0}
-    - m_Text: 07
-      m_Image: {fileID: 0}
-    - m_Text: 08
-      m_Image: {fileID: 0}
-    - m_Text: 09
-      m_Image: {fileID: 0}
-    - m_Text: 10
-      m_Image: {fileID: 0}
-    - m_Text: 11
-      m_Image: {fileID: 0}
-    - m_Text: 12
-      m_Image: {fileID: 0}
-    - m_Text: 13
-      m_Image: {fileID: 0}
-    - m_Text: 14
-      m_Image: {fileID: 0}
-    - m_Text: 15
-      m_Image: {fileID: 0}
-    - m_Text: 16
-      m_Image: {fileID: 0}
-    - m_Text: 17
-      m_Image: {fileID: 0}
-    - m_Text: 18
-      m_Image: {fileID: 0}
-    - m_Text: 19
-      m_Image: {fileID: 0}
-    - m_Text: 20
-      m_Image: {fileID: 0}
-    - m_Text: 21
-      m_Image: {fileID: 0}
-    - m_Text: 22
-      m_Image: {fileID: 0}
-    - m_Text: 23
-      m_Image: {fileID: 0}
-    - m_Text: 24
-      m_Image: {fileID: 0}
-    - m_Text: 25
-      m_Image: {fileID: 0}
-    - m_Text: 26
-      m_Image: {fileID: 0}
-    - m_Text: 27
-      m_Image: {fileID: 0}
-    - m_Text: 28
-      m_Image: {fileID: 0}
-    - m_Text: 29
-      m_Image: {fileID: 0}
-    - m_Text: 30
-      m_Image: {fileID: 0}
-    - m_Text: 31
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6009,13 +5947,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: 2019
-      m_Image: {fileID: 0}
-    - m_Text: 2020
-      m_Image: {fileID: 0}
-    - m_Text: 2021
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7894,13 +7826,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: 00
-      m_Image: {fileID: 0}
-    - m_Text: 01
-      m_Image: {fileID: 0}
-    - m_Text: 02
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -8003,8 +7929,6 @@ MonoBehaviour:
   jamSelesai: {fileID: 695270802}
   menitSelesai: {fileID: 1639984412}
   promptText: {fileID: 1460887792}
-  success: 0
-  uniquecode: 
 --- !u!114 &706306441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8486,7 +8410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &708042315
 GameObject:
   m_ObjectHideFlags: 0
@@ -10439,13 +10363,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: 01
-      m_Image: {fileID: 0}
-    - m_Text: 02
-      m_Image: {fileID: 0}
-    - m_Text: 03
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10842,7 +10760,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 01
+  m_Text: 
 --- !u!222 &768825931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11262,57 +11180,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: 00
-      m_Image: {fileID: 0}
-    - m_Text: 01
-      m_Image: {fileID: 0}
-    - m_Text: 02
-      m_Image: {fileID: 0}
-    - m_Text: 03
-      m_Image: {fileID: 0}
-    - m_Text: 04
-      m_Image: {fileID: 0}
-    - m_Text: 05
-      m_Image: {fileID: 0}
-    - m_Text: 06
-      m_Image: {fileID: 0}
-    - m_Text: 07
-      m_Image: {fileID: 0}
-    - m_Text: 08
-      m_Image: {fileID: 0}
-    - m_Text: 09
-      m_Image: {fileID: 0}
-    - m_Text: 10
-      m_Image: {fileID: 0}
-    - m_Text: 11
-      m_Image: {fileID: 0}
-    - m_Text: 12
-      m_Image: {fileID: 0}
-    - m_Text: 13
-      m_Image: {fileID: 0}
-    - m_Text: 14
-      m_Image: {fileID: 0}
-    - m_Text: 15
-      m_Image: {fileID: 0}
-    - m_Text: 16
-      m_Image: {fileID: 0}
-    - m_Text: 17
-      m_Image: {fileID: 0}
-    - m_Text: 18
-      m_Image: {fileID: 0}
-    - m_Text: 19
-      m_Image: {fileID: 0}
-    - m_Text: 20
-      m_Image: {fileID: 0}
-    - m_Text: 21
-      m_Image: {fileID: 0}
-    - m_Text: 22
-      m_Image: {fileID: 0}
-    - m_Text: 23
-      m_Image: {fileID: 0}
-    - m_Text: 24
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11714,7 +11582,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2019
+  m_Text: 
 --- !u!222 &820968947
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13767,7 +13635,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 01
+  m_Text: 
 --- !u!222 &987876461
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13844,7 +13712,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00
+  m_Text: 
 --- !u!222 &996972126
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14390,7 +14258,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00
+  m_Text: 
 --- !u!222 &1059485063
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17824,7 +17692,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 01
+  m_Text: 
 --- !u!222 &1475866302
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18717,19 +18585,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: 2019
-      m_Image: {fileID: 0}
-    - m_Text: 2020
-      m_Image: {fileID: 0}
-    - m_Text: 2021
-      m_Image: {fileID: 0}
-    - m_Text: 2022
-      m_Image: {fileID: 0}
-    - m_Text: 2023
-      m_Image: {fileID: 0}
-    - m_Text: 2024
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -19354,13 +19210,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: 01
-      m_Image: {fileID: 0}
-    - m_Text: 02
-      m_Image: {fileID: 0}
-    - m_Text: 03
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -19925,6 +19775,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 145414, guid: cb56b4b33256d914d8294509f21ba995, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 169196, guid: cb56b4b33256d914d8294509f21ba995, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11410734, guid: cb56b4b33256d914d8294509f21ba995, type: 3}
@@ -19935,6 +19789,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 108260490}
+    - target: {fileID: 11466534, guid: cb56b4b33256d914d8294509f21ba995, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11497134, guid: cb56b4b33256d914d8294509f21ba995, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 22305332, guid: cb56b4b33256d914d8294509f21ba995, type: 3}
       propertyPath: m_Camera
       value: 
@@ -20010,6 +19872,10 @@ PrefabInstance:
     - target: {fileID: 22447940, guid: cb56b4b33256d914d8294509f21ba995, type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22483138, guid: cb56b4b33256d914d8294509f21ba995, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb56b4b33256d914d8294509f21ba995, type: 3}
@@ -20170,13 +20036,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: 00
-      m_Image: {fileID: 0}
-    - m_Text: 01
-      m_Image: {fileID: 0}
-    - m_Text: 02
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -21608,31 +21468,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: 01
-      m_Image: {fileID: 0}
-    - m_Text: 02
-      m_Image: {fileID: 0}
-    - m_Text: 03
-      m_Image: {fileID: 0}
-    - m_Text: 04
-      m_Image: {fileID: 0}
-    - m_Text: 05
-      m_Image: {fileID: 0}
-    - m_Text: 06
-      m_Image: {fileID: 0}
-    - m_Text: 07
-      m_Image: {fileID: 0}
-    - m_Text: 08
-      m_Image: {fileID: 0}
-    - m_Text: 09
-      m_Image: {fileID: 0}
-    - m_Text: 10
-      m_Image: {fileID: 0}
-    - m_Text: 11
-      m_Image: {fileID: 0}
-    - m_Text: 12
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -23692,7 +23528,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 01
+  m_Text: 
 --- !u!222 &1892230821
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23984,43 +23820,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: 00
-      m_Image: {fileID: 0}
-    - m_Text: 01
-      m_Image: {fileID: 0}
-    - m_Text: 02
-      m_Image: {fileID: 0}
-    - m_Text: 03
-      m_Image: {fileID: 0}
-    - m_Text: 04
-      m_Image: {fileID: 0}
-    - m_Text: 05
-      m_Image: {fileID: 0}
-    - m_Text: 06
-      m_Image: {fileID: 0}
-    - m_Text: 07
-      m_Image: {fileID: 0}
-    - m_Text: 08
-      m_Image: {fileID: 0}
-    - m_Text: 09
-      m_Image: {fileID: 0}
-    - m_Text: 10
-      m_Image: {fileID: 0}
-    - m_Text: 11
-      m_Image: {fileID: 0}
-    - m_Text: 12
-      m_Image: {fileID: 0}
-    - m_Text: 13
-      m_Image: {fileID: 0}
-    - m_Text: 14
-      m_Image: {fileID: 0}
-    - m_Text: 15
-      m_Image: {fileID: 0}
-    - m_Text: 16
-      m_Image: {fileID: 0}
-    - m_Text: 16
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -24204,7 +24004,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2019
+  m_Text: 
 --- !u!222 &1934803349
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,8 +23,73 @@ public class Createarena : MonoBehaviour
     private string waktuMulai;
     private string waktuSelesai;
 
-    public int success;
-    public string uniquecode;
+    private string year;
+    private DateTime dateTime;
+    private List<string> yearList = new List<string>();
+    private List<string> monthList = new List<string>();
+    private List<string> dayList = new List<string>();
+    private List<string> hourList = new List<string>();
+    private List<string> minuteList = new List<string>();
+
+    public void Start()
+    {
+        //Year List
+        for(int i = 0; i < 5; i++)
+        {
+            dateTime = DateTime.Now.AddYears(i);
+            year = dateTime.ToString("yyyy");
+            Debug.Log(year);
+            yearList.Add(year);
+        }
+        tahunMulai.AddOptions(yearList);
+        tahunSelesai.AddOptions(yearList);
+
+        //Month
+        for (int i = 1; i <= 12; i++)
+        {
+            monthList.Add(i.ToString());
+        }
+        bulanMulai.AddOptions(monthList);
+        bulanSelesai.AddOptions(monthList);
+
+        //Day
+        for (int i = 1; i <= 31; i++)
+        {
+            dayList.Add(i.ToString());
+        }
+        hariMulai.AddOptions(dayList);
+        hariSelesai.AddOptions(dayList);
+
+        //Hour
+        for (int i = 0; i <= 24; i++)
+        {
+            if (i < 10)
+            {
+                hourList.Add("0" + i.ToString());
+            }
+            else
+            {
+                hourList.Add(i.ToString());
+            }
+        }
+        jamMulai.AddOptions(hourList);
+        jamSelesai.AddOptions(hourList);
+
+        //Minute
+        for (int i = 0; i <= 60; i++)
+        {
+            if(i < 10)
+            {
+                minuteList.Add("0" + i.ToString());
+            }
+            else
+            {
+                minuteList.Add(i.ToString());
+            }
+        }
+        menitMulai.AddOptions(minuteList);
+        menitSelesai.AddOptions(minuteList);
+    }
 
     public void CallCreatearena()
     {

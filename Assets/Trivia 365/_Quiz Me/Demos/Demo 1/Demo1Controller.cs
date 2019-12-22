@@ -915,6 +915,7 @@ public class Demo1Controller : MonoBehaviour
 
     public void ShowDetailArenaPanel()
     {
+        PlayerPrefs.SetInt("isDataUpdated", 1);
         DetailArenaPanel.SetActive(true);
     }
 

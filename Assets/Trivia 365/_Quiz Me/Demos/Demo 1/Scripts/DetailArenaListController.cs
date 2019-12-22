@@ -22,7 +22,18 @@ public class DetailArenaListController : MonoBehaviour
 
     private void Update()
     {
+        //if (PlayerPrefs.GetInt("isDataUpdated", 0) == 1)
+        //{
+        //    Debug.Log("Child Count : " + detailArenaListContent.transform.childCount);
 
+        //    foreach (Transform child in detailArenaListContent.transform)
+        //    {
+        //        if (child.GetSiblingIndex() != 0) Destroy(child.gameObject);
+        //    }
+
+        //    CallGetDetailArena();
+        //    PlayerPrefs.SetInt("isDataUpdated", 0);
+        //}
     }
 
     public void CallGetDetailArena()
