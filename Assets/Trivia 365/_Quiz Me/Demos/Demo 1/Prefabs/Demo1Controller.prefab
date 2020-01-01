@@ -63,6 +63,9 @@ MonoBehaviour:
   SettingsPage: {fileID: 0}
   CachePanel: {fileID: 0}
   UniquecodePanel: {fileID: 0}
+  CreateArenaPanel: {fileID: 0}
+  HistoriArenaPanel: {fileID: 0}
+  DetailArenaPanel: {fileID: 0}
   TopBarText: {fileID: 0}
   ProfileAvatar: {fileID: 0}
   Username: {fileID: 0}

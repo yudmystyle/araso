@@ -47,7 +47,4 @@ public class Registrasi : MonoBehaviour
             Debug.Log("Create User Failed.Error #" + www.text);
         }
     }
-
-    
-
 }

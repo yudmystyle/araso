@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestionDatabase>
+	<Questions>
+		<Question>Apa nama aktifitas di gambar ini ? =</Question>
+		<Image>flyboarding</Image>
+		<Answers>
+			<Choices correct="true">Flyboarding</Choices>
+			<Choices correct="false">Skateboard</Choices>
+			<Choices correct="false">Jetski</Choices>
+			<Choices correct="false">Flyover</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Berapa kapasitas Stadion Utama Gelora Bung Karno ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">8.800 Penonton</Choices>
+			<Choices correct="true">88.000 Penonton</Choices>
+			<Choices correct="false">880 Penonton</Choices>
+			<Choices correct="false">880.000 Penonton</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Berapa banyak medali emas Olimpiade yang telah dimenangkan perenang Amerika Michael Phelps ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">17</Choices>
+			<Choices correct="false">19</Choices>
+			<Choices correct="true">18</Choices>
+			<Choices correct="false">20</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Pada babak kualifikasi Euro 2007 UEFA, striker Swedia Markus Allback Mencetak gol yang masuk rekor gol tercepat. Berapa detik game baru berlangsung saat itu ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">30</Choices>
+			<Choices correct="false">25</Choices>
+			<Choices correct="false">40</Choices>
+			<Choices correct="true">35</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Petenis Swiss manakah yang disebut sebagai "The Maestro" yang lahir tahun 1981 dan memenangkan 17 turnamen tenis Grand Slam ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Roger Federer</Choices>
+			<Choices correct="false">Rafael Nadal</Choices>
+			<Choices correct="false">Novak Djokovic</Choices>
+			<Choices correct="false">Pete Sampras</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Siapa penemu permainan bola voli ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Michael William</Choices>
+			<Choices correct="false">Christopher</Choices>
+			<Choices correct="true">William G Morgan</Choices>
+			<Choices correct="false">Steven A Robertus</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Pertama kalinya bola voli dipertandingkan di Polandia pada tahun ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">1974</Choices>
+			<Choices correct="false">1984</Choices>
+			<Choices correct="false">1994</Choices>
+			<Choices correct="false">2004</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Pada sepak bola, pemain wajib keluar dari lapangan apabila ? kecuali. =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Terkena 2 kartu kuning</Choices>
+			<Choices correct="false">Cidera parah</Choices>
+			<Choices correct="false">Terkena kartu merah</Choices>
+			<Choices correct="true">Melakukan pelanggaran</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>IBF singkatan dari ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">International Badminton Foundation</Choices>
+			<Choices correct="false">Institute of Basketball Federation</Choices>
+			<Choices correct="true">International Badminton Federation</Choices>
+			<Choices correct="false">International Basketball Foundation</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Perlombaan olahraga yang dilaksanakan pada olimpiade kuno adalah ? kecuali. =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Sepak Bola</Choices>
+			<Choices correct="false">Lari</Choices>
+			<Choices correct="false">Gulat</Choices>
+			<Choices correct="false">Berkuda</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Pencak silat berasal dari ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Brunei Darussalam</Choices>
+			<Choices correct="false">Malaysia</Choices>
+			<Choices correct="true">Indonesia</Choices>
+			<Choices correct="false">Singapura</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Berapa jumlah pemain sepak bola yang ada di lapangan saat bermain ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">11 Pemain</Choices>
+			<Choices correct="true">22 Pemain</Choices>
+			<Choices correct="false">12 Pemain</Choices>
+			<Choices correct="false">24 Pemain</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Prinsip gerakan dalam senam irama ditentukan oleh ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Fleksibilitas, Ketegasan Gerakan, dan Irama</Choices>
+			<Choices correct="false">Fleksibilitas, Kontinyuitas Gerakan, dan Ketegasan Gerakan</Choices>
+			<Choices correct="false">Kecepatan, Kontinyuitas Gerakan, dan Ritme Gerakan</Choices>
+			<Choices correct="true">Fleksibilitas, Kontinyuitas Gerakan, dan Irama</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Federation Internationale de Natation (FINA) dibentuk pada tahun ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">1918</Choices>
+			<Choices correct="true">1908</Choices>
+			<Choices correct="false">1903</Choices>
+			<Choices correct="false">1927</Choices>
+		</Answers>
+	</Questions>
+</QuestionDatabase>

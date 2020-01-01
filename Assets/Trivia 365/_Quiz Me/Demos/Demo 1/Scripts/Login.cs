@@ -53,7 +53,4 @@ public class Login : MonoBehaviour
             Debug.Log("Login User Failed.Error #" + www.text);
         }
     }
-
-
-
 }
