@@ -14,74 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     questions:
-    - question: Apa nama aktifitas di gambar ini ? =
-      imageUrl: flyboarding
-      answers:
-      - correct: 1
-        answer: Flyboarding
-      - correct: 0
-        answer: Skateboard
-      - correct: 0
-        answer: Jetski
-      - correct: 0
-        answer: Flyover
-    - question: Berapa kapasitas Stadion Utama Gelora Bung Karno ? =
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: 8.800 Penonton
-      - correct: 1
-        answer: 88.000 Penonton
-      - correct: 0
-        answer: 880 Penonton
-      - correct: 0
-        answer: 880.000 Penonton
-    - question: Berapa banyak medali emas Olimpiade yang telah dimenangkan perenang
-        Amerika Michael Phelps ? =
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: 17
-      - correct: 0
-        answer: 19
-      - correct: 1
-        answer: 18
-      - correct: 0
-        answer: 20
-    - question: Pada babak kualifikasi Euro 2007 UEFA, striker Swedia Markus Allback
-        Mencetak gol yang masuk rekor gol tercepat. Berapa detik game baru berlangsung
-        saat itu ? =
-      imageUrl: 
-      answers:
-      - correct: 0
-        answer: 30
-      - correct: 0
-        answer: 25
-      - correct: 0
-        answer: 40
-      - correct: 1
-        answer: 35
-    - question: Petenis Swiss manakah yang disebut sebagai "The Maestro" yang lahir
-        tahun 1981 dan memenangkan 17 turnamen tenis Grand Slam ? =
+    - question: apa singkatan dari HP
       imageUrl: 
       answers:
       - correct: 1
-        answer: Roger Federer
-      - correct: 0
-        answer: Rafael Nadal
-      - correct: 0
-        answer: Novak Djokovic
-      - correct: 0
-        answer: Pete Sampras
-    - question: 'Siapakah atlet surfing indonesia yang pernah mengalahkan juara dunia
-        surfing 8 kali, Kelly Slater ? = '
-      imageUrl: 
-      answers:
+        answer: 
       - correct: 0
         answer: 
       - correct: 0
         answer: 
-      - correct: 1
-        answer: 'Dede Suryana '
       - correct: 0
         answer: 

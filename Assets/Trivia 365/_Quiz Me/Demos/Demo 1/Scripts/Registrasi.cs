@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class Registrasi : MonoBehaviour
 {
@@ -11,6 +12,22 @@ public class Registrasi : MonoBehaviour
     public Text promptText;
 
     public Button submitButton;
+
+    [Serializable]
+    public class UserModel
+    {
+        public int id_user;
+        public string name;
+    }
+
+
+    [Serializable]
+    public class Response
+    {
+        public int success;
+        public string message;
+        public UserModel user;
+    }
 
     public void CallRegister()
     {
@@ -29,7 +46,9 @@ public class Registrasi : MonoBehaviour
         form.AddField("password", passwordField.text);
         WWW www = new WWW(ApiConstant.SERVER + "/register", form);
         yield return www;
+        //Response response = JsonUtility.FromJson<Response>(www.text);
         if (www.text.Contains("\"success\":1"))
+        //if (response.success == 1)
         {
             Debug.Log("User Created Successfully");
             UnityEngine.SceneManagement.SceneManager.LoadScene("loginmenu");

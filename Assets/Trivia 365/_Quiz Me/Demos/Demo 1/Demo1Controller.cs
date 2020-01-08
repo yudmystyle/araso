@@ -19,6 +19,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using System.Security.Cryptography;
+using System.Threading.Tasks;
+
 #if USE_UNITYADS
 using UnityEngine.Advertisements;
 #endif
@@ -31,6 +33,7 @@ using DG.Tweening;
 #if USE_ADMOB
 using GoogleMobileAds.Api;
 #endif
+
 
 public class Demo1Controller : MonoBehaviour
 {
@@ -117,6 +120,8 @@ public class Demo1Controller : MonoBehaviour
     public GameObject CachePanel;
     [Tooltip("The uniquecode panel")]
     public GameObject UniquecodePanel;
+    [Tooltip("The duel panel")]
+    public GameObject DuelPanel;
     [Tooltip("The create arena panel")]
     public GameObject CreateArenaPanel;
     [Tooltip("The histori arena panel")]
@@ -924,6 +929,39 @@ public class Demo1Controller : MonoBehaviour
         HistoriArenaPanel.SetActive(true);
     }
 
+    [Serializable]
+    private class Response
+    {
+        public int success;
+        public string message;
+    }
+
+
+    IEnumerator ConnectDuel()
+    {
+        Debug.Log("Connect to Duel");
+        WWW www = new WWW(ApiConstant.SERVER + "/duelqueue/" + PlayerPrefs.GetInt("UserId"));
+        yield return www;
+        Debug.Log(www.text);
+        Response response = JsonUtility.FromJson<Response>(www.text);
+        if (response.success == 1)
+        {
+            Debug.Log(response.message);
+        }
+    }
+
+    public void ShowDuelPanel()
+    {
+        DuelPanel.SetActive(true);
+    }
+
+    public void StartDuel()
+    {
+        DuelPanel.SetActive(false);
+        PlayGame("bahasa", "", "bahasa", 2, "", "", "", true);
+        Debug.Log("Play");
+    }
+
     public void ShowCreateArenaPanel()
     {
         CreateArenaPanel.SetActive(true);
@@ -932,6 +970,10 @@ public class Demo1Controller : MonoBehaviour
     public void CloseCreateArenaPanel()
     {
         CreateArenaPanel.SetActive(false);
+    }
+    public void CloseDuelPanel()
+    {
+        DuelPanel.SetActive(false);
     }
     public void CloseCachePanel()
     {
@@ -1593,7 +1635,7 @@ public class Demo1Controller : MonoBehaviour
                 //Show gameOver canvas
                 GameOverCanvas.SetActive(true);
 
-                FinalScore.text = "High Score";
+                FinalScore.text = "";
                 //Display scores
                 CurHighscore.text = "\nScore: " + score.ToString("0") + "\n" +
                 "Highscore: " + PlayerPrefs.GetFloat(hScorePref, 0).ToString("0");

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestionDatabase>
+	<Questions>
+		<Question>Nama ilmiah dari ikan bandeng adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Chanos chanos</Choices>
+			<Choices correct="false">Oreochromis niloticus</Choices>
+			<Choices correct="false">Osphronemous gouramy</Choices>
+			<Choices correct="false">Pangasius sp.</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Nama ilmiah dari udang galah adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">litopenaeus vannamei</Choices>
+			<Choices correct="false">Penaeus monodon</Choices>
+			<Choices correct="true">Macrobrachium rosenbergii</Choices>
+			<Choices correct="false">Aurelia aurita</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Berikut adalah genus dari plankton, kecuali. =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Skeletonema</Choices>
+			<Choices correct="false">Dunaliela</Choices>
+			<Choices correct="false">Spirullina</Choices>
+			<Choices correct="true">Puntius</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Hewan yang termasuk keluarga anjing adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Serigala</Choices>
+			<Choices correct="false">Singa</Choices>
+			<Choices correct="false">Harimau</Choices>
+			<Choices correct="false">Cheetah</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Ukuran mahkluk yang sangat kecil hingga tidak dapat dilihat oleh mata telanjang adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Mikro</Choices>
+			<Choices correct="false">Makro</Choices>
+			<Choices correct="false">Tini</Choices>
+			<Choices correct="false">Smalls</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Mikroskop yang digunakan untuk melihat atom adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Mikroskop electron</Choices>
+			<Choices correct="false">Mikroskop cahaya</Choices>
+			<Choices correct="false">Mikroskop binocular</Choices>
+			<Choices correct="false">Mikroskop bioluminescence</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Sel yang dapat mengeluarkan cahayanya sendiri adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Pigmented</Choices>
+			<Choices correct="true">Bioluminescence</Choices>
+			<Choices correct="false">Brackish</Choices>
+			<Choices correct="false">Atomic</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Yang bertugas sebagai pengantar / penyalur proses fotosintesis pada tumbuhan tingkat tinggi adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Retikulum Endoplasma</Choices>
+			<Choices correct="false">Xylem</Choices>
+			<Choices correct="true">Floem</Choices>
+			<Choices correct="false">Stomata</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Berikut adalah organel pada sel, kecuali. =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Limfa</Choices>
+			<Choices correct="false">Inti sel</Choices>
+			<Choices correct="false">Sitoplasma</Choices>
+			<Choices correct="false">Ribosom</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Ular yang tidak memiliki bisa adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Mamba Hitam</Choices>
+			<Choices correct="false">Yarara</Choices>
+			<Choices correct="true">Piton</Choices>
+			<Choices correct="false">Kobra</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Macam-macam gaya pada fisika, kecuali. =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Gesek</Choices>
+			<Choices correct="true">Tulang</Choices>
+			<Choices correct="false">Pegas</Choices>
+			<Choices correct="false">Otot</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Jenis-jenis tumbukan, kecuali. =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Tidak sempurna</Choices>
+			<Choices correct="false">Lenting sempurna</Choices>
+			<Choices correct="false">Tidak lenting sebagian</Choices>
+			<Choices correct="false">Tidak lenting sempurna</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Ciri-ciri unsur non-logam adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Kerapatan tinggi</Choices>
+			<Choices correct="false">Bersifat konduktor</Choices>
+			<Choices correct="false">Mengkilap</Choices>
+			<Choices correct="true">Rapuh</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Ciri-ciri unsur logam adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Kerapatan tinggi</Choices>
+			<Choices correct="false">Bersifat Isolator</Choices>
+			<Choices correct="false">Tidak Mengkilap</Choices>
+			<Choices correct="false">Rapuh</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Simbol unsur kimia Ununoctium adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Uut</Choices>
+			<Choices correct="false">Uum</Choices>
+			<Choices correct="false">Uuc</Choices>
+			<Choices correct="true">Uuo</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Planet yang tdak memiliki cincin adalah ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Jupiter</Choices>
+			<Choices correct="false">Uranus</Choices>
+			<Choices correct="true">Venus</Choices>
+			<Choices correct="false">Neptunus</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Gerakan bumi mengelilingi matahari disebut ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Resolusi</Choices>
+			<Choices correct="false">Rotasi</Choices>
+			<Choices correct="true">Revolusi</Choices>
+			<Choices correct="false">Rekapturasi</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Gerakan bumi berputar pada porosnya disebut ? =</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Resolusi</Choices>
+			<Choices correct="true">Rotasi</Choices>
+			<Choices correct="false">Revolusi</Choices>
+			<Choices correct="false">Rekapturasi</Choices>
+		</Answers>
+	</Questions>
+</QuestionDatabase>

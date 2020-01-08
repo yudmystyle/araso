@@ -35,7 +35,7 @@
 		<Image />
 		<Answers>
 			<Choices correct="false">besar</Choices>
-			<Choices correct="false"> panjang</Choices>
+			<Choices correct="false">panjang</Choices>
 			<Choices correct="true">tinggi</Choices>
 			<Choices correct="false">rimbun</Choices>
 		</Answers>
@@ -48,6 +48,86 @@
 			<Choices correct="false">pengasingan</Choices>
 			<Choices correct="true">penipuan</Choices>
 			<Choices correct="false">penculikan</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Berikut adalah kalimat tanya untuk pokok informasi, Kecuali..</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Apa ?</Choices>
+			<Choices correct="false">Siapa ?</Choices>
+			<Choices correct="true">Berapa ?</Choices>
+			<Choices correct="false">Mengapa ?</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Berikut adalah sebutan kakak laki-laki, Kecuali..</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Mas</Choices>
+			<Choices correct="false">Abang</Choices>
+			<Choices correct="false">Bli</Choices>
+			<Choices correct="true">Pak</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Rangkaian peristiwa dan konflik yang menggerakkan jalan cerita adalah ?.</Question>
+		<Image />
+		<Answers>
+			<Choices correct="true">Alur</Choices>
+			<Choices correct="false">Penokohan</Choices>
+			<Choices correct="false">Latar</Choices>
+			<Choices correct="false">Sudut pandang</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Keterangan mengenai ruang dan waktu dalam sebuah cerita adalah ?.</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Alur</Choices>
+			<Choices correct="false">Penokohan</Choices>
+			<Choices correct="true">Latar</Choices>
+			<Choices correct="false">Sudut pandang</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Alasan yang dapat dipakai untuk memperkuat atau menolak suatu pendapat, pendirian, atau gagasan adalah ?.</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Denotatif</Choices>
+			<Choices correct="true">Argumen</Choices>
+			<Choices correct="false">Eksplanasi</Choices>
+			<Choices correct="false">Eksposisi</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Bahasa daerah yang paling banyak dipakai / dibuat bahasa sehari-hari adalah ?.</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Bahasa Jawa</Choices>
+			<Choices correct="true">Bahasa Sunda</Choices>
+			<Choices correct="false">Bahasa Madura</Choices>
+			<Choices correct="false">Bahasa Bali</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Daftar yang berisi tentang informasi sumber tulisan adalah ?.</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Daftar Hadir</Choices>
+			<Choices correct="false">Daftar Menu</Choices>
+			<Choices correct="false">Daftar Isi</Choices>
+			<Choices correct="true">Daftar Pustaka</Choices>
+		</Answers>
+	</Questions>
+	<Questions>
+		<Question>Berikut adalah susunan umum dari sebuah makalah, kecuali..</Question>
+		<Image />
+		<Answers>
+			<Choices correct="false">Pendahuluan</Choices>
+			<Choices correct="false">Isi</Choices>
+			<Choices correct="false">Penutup</Choices>
+			<Choices correct="true">Glossarium</Choices>
 		</Answers>
 	</Questions>
 </QuestionDatabase>

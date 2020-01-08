@@ -5,7 +5,7 @@
 		<Image />
 		<Answers>
 			<Choices correct="false">Daging Sapi</Choices>
-			<Choices correct="false">Daging Anjing</Choices>
+			<Choices correct="false">Daging Kalkun</Choices>
 			<Choices correct="true">Daging Babi</Choices>
 			<Choices correct="false">Daging Kelinci</Choices>
 		</Answers>
@@ -36,15 +36,15 @@
 		<Answers>
 			<Choices correct="true">Christoper Columbus</Choices>
 			<Choices correct="false">Thomas Alva Edison</Choices>
-			<Choices correct="false">Albert Eistein</Choices>
-			<Choices correct="false">Alexander Graham Bell</Choices>
+			<Choices correct="false">Douwes Dekker</Choices>
+			<Choices correct="false">George Washington</Choices>
 		</Answers>
 	</Questions>
 	<Questions>
 		<Question>Dari negara manakah bir Heineken berasal ? =</Question>
 		<Image />
 		<Answers>
-			<Choices correct="false">Amerika</Choices>
+			<Choices correct="false">Amerika Serikat</Choices>
 			<Choices correct="true">Belanda</Choices>
 			<Choices correct="false">Inggris</Choices>
 			<Choices correct="false">Rusia</Choices>
@@ -57,7 +57,7 @@
 			<Choices correct="false">Daging Kelinci</Choices>
 			<Choices correct="false">Daging Ayam</Choices>
 			<Choices correct="true">Daging Sapi Muda</Choices>
-			<Choices correct="false">Daging Kambig</Choices>
+			<Choices correct="false">Daging Kambing</Choices>
 		</Answers>
 	</Questions>
 	<Questions>
@@ -67,7 +67,7 @@
 			<Choices correct="true">Kartoffel </Choices>
 			<Choices correct="false">Mandel</Choices>
 			<Choices correct="false">Apfel</Choices>
-			<Choices correct="false">itrone</Choices>
+			<Choices correct="false">Itrone</Choices>
 		</Answers>
 	</Questions>
 	<Questions>
@@ -77,17 +77,17 @@
 			<Choices correct="false">Singkong</Choices>
 			<Choices correct="false">Kentang</Choices>
 			<Choices correct="false">Keju</Choices>
-			<Choices correct="true">Jagung Bose </Choices>
+			<Choices correct="true">Jagung Bose</Choices>
 		</Answers>
 	</Questions>
 	<Questions>
 		<Question>Manakah dari hidangan tradisional di bawah ini yang bahan utamanya singkong ? = </Question>
 		<Image />
 		<Answers>
-			<Choices correct="false">Bakmi jawa</Choices>
-			<Choices correct="false">Mi Aceh</Choices>
+			<Choices correct="false">Roti Jawa</Choices>
+			<Choices correct="false">Nagasari</Choices>
 			<Choices correct="true">Gaplek</Choices>
-			<Choices correct="false">Mi Kocok</Choices>
+			<Choices correct="false">Klepon</Choices>
 		</Answers>
 	</Questions>
 	<Questions>
@@ -147,7 +147,7 @@
 			<Choices correct="true">Keju</Choices>
 			<Choices correct="false">Susu</Choices>
 			<Choices correct="false">Jagung</Choices>
-			<Choices correct="false">Pop Corn</Choices>
+			<Choices correct="false">PopCorn</Choices>
 		</Answers>
 	</Questions>
 	<Questions>
