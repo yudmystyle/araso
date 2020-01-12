@@ -45,9 +45,9 @@
 		<Image />
 		<Answers>
 			<Choices correct="true">Sesuai Kebutuhan </Choices>
-			<Choices correct="false">Kebutuhan Primary</Choices>
-			<Choices correct="false">Kebutuhan sekunder</Choices>
-			<Choices correct="false">tidak ada kebutuhan</Choices>
+      <Choices correct="false">Diminum secara rutin</Choices>
+      <Choices correct="false">Sebelum makan</Choices>
+      <Choices correct="false">Sesudah makan</Choices>
 		</Answers>
 	</Questions>
 	<Questions>
@@ -57,7 +57,7 @@
 			<Choices correct="false">Carrot-Mango-Tangerine</Choices>
 			<Choices correct="false">Cerita-Mantan-Terindah</Choices>
 			<Choices correct="true">Charcot-Marie-Tooth</Choices>
-			<Choices correct="false">tidak ada yang benar</Choices>
+      <Choices correct="false">Charcoal-Mega-Tooth</Choices>
 		</Answers>
 	</Questions>
 	<Questions>
@@ -71,33 +71,23 @@
 		</Answers>
 	</Questions>
 	<Questions>
-		<Question>Mengapa mamalia memiliki dua telinga ?</Question>
-		<Image />
-		<Answers>
-			<Choices correct="true">Untuk penentuan posisi</Choices>
-			<Choices correct="false">Tidak ada yang benar</Choices>
-			<Choices correct="false">benar semua</Choices>
-			<Choices correct="false">Mendengarkan</Choices>
-		</Answers>
-	</Questions>
-	<Questions>
 		<Question>Manakah yang benar tentang DNA ?</Question>
 		<Image />
 		<Answers>
 			<Choices correct="false">Berbentuk bulat</Choices>
 			<Choices correct="true">Berbentuk spiral</Choices>
-			<Choices correct="false">Berbentuk Segitiga</Choices>
-			<Choices correct="false">Berbentuk tabung</Choices>
+      <Choices correct="false">Tidak memiliki pasangan</Choices>
+      <Choices correct="false">Lebih kecil dari atom</Choices>
 		</Answers>
 	</Questions>
 	<Questions>
-		<Question>Berapa jumlah maksimum gigi yang dapat dimiliki seseorang ?</Question>
+    <Question>Berapa jumlah maksimum gigi yang dapat dimiliki orang normal ?</Question>
 		<Image />
 		<Answers>
 			<Choices correct="false">18</Choices>
-			<Choices correct="false">64</Choices>
+			<Choices correct="false">48</Choices>
 			<Choices correct="true">32</Choices>
-			<Choices correct="false">128</Choices>
+			<Choices correct="false">42</Choices>
 		</Answers>
 	</Questions>
 	<Questions>
@@ -151,13 +141,13 @@
 		</Answers>
 	</Questions>
 	<Questions>
-		<Question>Dari sistem saraf yang mana sistem saraf pusat menerima informasi ?</Question>
+    <Question>Dari mana sistem saraf pusat menerima informasi ?</Question>
 		<Image />
 		<Answers>
 			<Choices correct="true">Sistem Saraf Tepi</Choices>
-			<Choices correct="false">Sistem Saraf Pusat</Choices>
-			<Choices correct="false">Benar semua</Choices>
-			<Choices correct="false">Salah Semua</Choices>
+      <Choices correct="false">Impuls</Choices>
+      <Choices correct="false">Cerebellum</Choices>
+      <Choices correct="false">Otak Besar</Choices>
 		</Answers>
 	</Questions>
 </QuestionDatabase>
