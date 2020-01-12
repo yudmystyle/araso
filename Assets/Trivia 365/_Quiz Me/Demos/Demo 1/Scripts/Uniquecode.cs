@@ -37,7 +37,7 @@ public class Uniquecode : MonoBehaviour
         }
         else
         {
-            Debug.Log("Login User Failed.Error #" + www.text);
+            Debug.Log("Join Area Failed.Error #" + www.text);
         }
     }
 }

@@ -123,6 +123,10 @@ public class Demo1Controller : MonoBehaviour
     public GameObject HistoriArenaPanel;
     [Tooltip("The detail arena panel")]
     public GameObject DetailArenaPanel;
+    [Tooltip("The duel panel")]
+    public GameObject DuelPanel;
+    [Tooltip("The duel result panel")]
+    public GameObject DuelResultPanel;
     [Tooltip("The topbar text")]
     public Text TopBarText;
     [Tooltip("The avatar display component")]
@@ -929,6 +933,16 @@ public class Demo1Controller : MonoBehaviour
         CreateArenaPanel.SetActive(true);
     }
 
+    public void ShowDuelPanel()
+    {
+        DuelPanel.SetActive(true);
+    }
+
+    public void ShowDuelResultPanel()
+    {
+        DuelResultPanel.SetActive(true);
+    }
+
     public void CloseCreateArenaPanel()
     {
         CreateArenaPanel.SetActive(false);
@@ -951,6 +965,34 @@ public class Demo1Controller : MonoBehaviour
     public void CloseHistoriArenaPanel()
     {
         HistoriArenaPanel.SetActive(false);
+    }
+
+    public void CloseDuelPanel()
+    {
+        StartCoroutine(CancelDuel());
+    }
+
+    public void DisableDuelPanel()
+    {
+        DuelPanel.SetActive(false);
+    }
+
+    public void CloseDuelResultPanel()
+    {
+        DuelResultPanel.SetActive(false);
+    }
+
+    private IEnumerator CancelDuel()
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("id_duel", PlayerPrefs.GetInt("idDuel"));
+        WWW www = new WWW(ApiConstant.SERVER + "/cancelduel", form);
+        yield return www;
+
+        PlayerPrefs.SetInt("isDuel", 0);
+        PlayerPrefs.Save();
+
+        DuelPanel.SetActive(false);
     }
 
     public void DeleteCache()
@@ -1564,7 +1606,19 @@ public class Demo1Controller : MonoBehaviour
             //Call API Submit Arena
             if (PlayerPrefs.GetInt("isArenaOnline", 0) == 1)
             {
-                StartCoroutine(SubmitArena(PlayerPrefs.GetFloat(hScorePref, 0)));
+                StartCoroutine(SubmitArena(score));
+            }
+
+            //Call API Submit Duel
+            if(PlayerPrefs.GetInt("isDuel", 0) == 1)
+            {
+                GameOverCanvas.SetActive(false);
+                PlayerPrefs.SetInt("isDuel", 0);
+                PlayerPrefs.SetString("duelScore", score.ToString());
+                PlayerPrefs.Save();
+                DisableDuelPanel();
+                MainMenu();
+                ShowDuelResultPanel();
             }
         }
         else
@@ -1601,7 +1655,19 @@ public class Demo1Controller : MonoBehaviour
                 //Call API Submit Arena
                 if (PlayerPrefs.GetInt("isArenaOnline", 0) == 1)
                 {
-                    StartCoroutine(SubmitArena(PlayerPrefs.GetFloat(hScorePref, 0)));
+                    StartCoroutine(SubmitArena(score));
+                }
+
+                //Call API Submit Duel
+                if (PlayerPrefs.GetInt("isDuel", 0) == 1)
+                {
+                    GameOverCanvas.SetActive(false);
+                    PlayerPrefs.SetInt("isDuel", 0);
+                    PlayerPrefs.SetString("duelScore", score.ToString());
+                    PlayerPrefs.Save();
+                    DisableDuelPanel();
+                    MainMenu();
+                    ShowDuelResultPanel();
                 }
             }
         }
