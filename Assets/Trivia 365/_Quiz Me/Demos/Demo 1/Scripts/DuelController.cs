@@ -154,5 +154,23 @@ public class DuelController : MonoBehaviour
             yield return new WaitForSeconds(2);
             Controller.PlayGame("Matematika", "", "matematika", 2, "", "", "", true);
         }
+        else if (duel.paketsoal == 3)
+        {
+            soal.text = "Soal Sains";
+            yield return new WaitForSeconds(2);
+            Controller.PlayGame("Sains", "", "sains", 2, "", "", "", true);
+        }
+        else if (duel.paketsoal == 4)
+        {
+            soal.text = "Soal Kuliner";
+            yield return new WaitForSeconds(2);
+            Controller.PlayGame("Kuliner", "", "kuliner", 2, "", "", "", true);
+        }
+        else if (duel.paketsoal == 5)
+        {
+            soal.text = "Soal Tubuh dan Kesehatan";
+            yield return new WaitForSeconds(2);
+            Controller.PlayGame("Tubuh dan kesehatan", "", "tubuh dan kesehatan", 2, "", "", "", true);
+        }
     }
 }
