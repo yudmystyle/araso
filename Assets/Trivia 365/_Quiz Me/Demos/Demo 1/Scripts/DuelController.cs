@@ -65,7 +65,7 @@ public class DuelController : MonoBehaviour
 
                 promptText.text = "Lawanmu adalah";
                 opponentName.text = duel.opponent;
-                yield return new WaitForSeconds(3);
+                yield return new WaitForSeconds(1);
 
                 CallStartGame();
             }
@@ -109,7 +109,7 @@ public class DuelController : MonoBehaviour
 
                 promptText.text = "Lawanmu adalah";
                 opponentName.text = duel.opponent;
-                yield return new WaitForSeconds(3);
+                yield return new WaitForSeconds(1);
 
                 CallStartGame();
             }
