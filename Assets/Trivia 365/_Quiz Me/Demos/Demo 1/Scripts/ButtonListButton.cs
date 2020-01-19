@@ -23,7 +23,8 @@ public class ButtonListButton : MonoBehaviour
     ButtonListControl buttonListControl;
 
     private int currentIdSoal;
-    private DateTime dateTime;
+    private DateTime startDateTime;
+    private DateTime endDateTime;
     private int idArena;
 
     public void SetText(int idSoal, string uniqueCodeString, string waktuMulaiString, string waktuSelesaiString, string scoreString, int idArena)
@@ -32,11 +33,21 @@ public class ButtonListButton : MonoBehaviour
         uniqueCode.text = uniqueCodeString;
         waktuMulai.text = waktuMulaiString;
         waktuSelesai.text = waktuSelesaiString;
-        score.text = scoreString;
 
         //Button Checker
-        dateTime = DateTime.ParseExact(waktuMulaiString, "yyyy-MM-dd HH:mm:ss", null);
-        if(DateTime.Now < dateTime)
+        startDateTime = DateTime.ParseExact(waktuMulaiString, "yyyy-MM-dd HH:mm:ss", null);
+        endDateTime = DateTime.ParseExact(waktuSelesaiString, "yyyy-MM-dd HH:mm:ss", null);
+
+        if (DateTime.Now > endDateTime)
+        {
+            score.text = scoreString;
+        }
+        else
+        {
+            score.text = "-";
+        }
+
+        if(DateTime.Now < startDateTime || DateTime.Now > endDateTime)
         {
             joinButton.interactable = false;
         }
@@ -46,8 +57,8 @@ public class ButtonListButton : MonoBehaviour
             currentIdSoal = idSoal;
             this.idArena = idArena;
             joinButton.onClick.AddListener(() => JoinOnClick(idSoal, idArena));
-            detailButton.onClick.AddListener(() => DetailOnClick(idArena));
         }
+        detailButton.onClick.AddListener(() => DetailOnClick(idArena, waktuSelesaiString));
     }
 
     public void JoinOnClick(int idSoal, int idArena)
@@ -55,9 +66,9 @@ public class ButtonListButton : MonoBehaviour
         buttonListControl.JoinButtonClicked(currentIdSoal, idArena);
     }
 
-    public void DetailOnClick(int idArena)
+    public void DetailOnClick(int idArena, string endDate)
     {
         Debug.Log("ID Arena : " + idArena);
-        buttonListControl.DetailButtonClicked(idArena);
+        buttonListControl.DetailButtonClicked(idArena, endDate);
     }
 }

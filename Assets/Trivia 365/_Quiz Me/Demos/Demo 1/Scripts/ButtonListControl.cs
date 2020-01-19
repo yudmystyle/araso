@@ -13,12 +13,12 @@ public class ButtonListControl : MonoBehaviour
 
     void Start()
     {
-        CallGetArena();
+        //CallGetArena();
     }
 
     private void Update()
     {
-        if (PlayerPrefs.GetInt("isDataUpdated", 0) == 1)
+        /*if (PlayerPrefs.GetInt("isDataUpdated", 0) == 1)
         {
             Debug.Log("Child Count : " + areaListContent.transform.childCount);
 
@@ -29,7 +29,19 @@ public class ButtonListControl : MonoBehaviour
 
             CallGetArena();
             PlayerPrefs.SetInt("isDataUpdated", 0);
+        }*/
+    }
+
+    private void OnEnable()
+    {
+        Debug.Log("Child Count : " + areaListContent.transform.childCount);
+
+        foreach (Transform child in areaListContent.transform)
+        {
+            if (child.GetSiblingIndex() != 0) Destroy(child.gameObject);
         }
+
+        CallGetArena();
     }
 
     public void CallGetArena()
@@ -79,11 +91,24 @@ public class ButtonListControl : MonoBehaviour
         {
             Controller.PlayGame("Matematika", "", "matematika", 2, "", "", "", true);
         }
+        else if (idSoal == 3)
+        {
+            Controller.PlayGame("Sains", "", "sains", 2, "", "", "", true);
+        }
+        else if (idSoal == 4)
+        {
+            Controller.PlayGame("Kuliner", "", "kuliner", 2, "", "", "", true);
+        }
+        else if (idSoal == 5)
+        {
+            Controller.PlayGame("Tubuh dan kesehatan", "", "tubuh dan kesehatan", 2, "", "", "", true);
+        }
     }
     
-    public void DetailButtonClicked(int idArena)
+    public void DetailButtonClicked(int idArena, string endDate)
     {
         PlayerPrefs.SetInt("idArena", idArena);
+        PlayerPrefs.SetString("endDate", endDate);
         Controller.ShowDetailArenaPanel();
     }
 }
