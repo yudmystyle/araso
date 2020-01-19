@@ -26297,7 +26297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: History Arena
+  m_Text: Detail Arena
 --- !u!222 &1856327883
 CanvasRenderer:
   m_ObjectHideFlags: 0

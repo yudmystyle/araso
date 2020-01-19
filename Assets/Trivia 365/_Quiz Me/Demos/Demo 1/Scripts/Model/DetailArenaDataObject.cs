@@ -10,6 +10,8 @@ public class DetailArenaDataObject
     public string name;
     public int isonline;
     public string score;
+    public string created_at;
+    public string updated_at;
 
     public int MyProperty { get; set; }
 }

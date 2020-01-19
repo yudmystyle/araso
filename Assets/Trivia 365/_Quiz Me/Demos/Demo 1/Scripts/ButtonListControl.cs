@@ -83,7 +83,6 @@ public class ButtonListControl : MonoBehaviour
     
     public void DetailButtonClicked(int idArena)
     {
-        Controller.CloseHistoriArenaPanel();
         PlayerPrefs.SetInt("idArena", idArena);
     }
 }
