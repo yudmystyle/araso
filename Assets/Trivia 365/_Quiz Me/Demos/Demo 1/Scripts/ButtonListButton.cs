@@ -47,7 +47,7 @@ public class ButtonListButton : MonoBehaviour
             score.text = "-";
         }
 
-        if(DateTime.Now < startDateTime || DateTime.Now > endDateTime)
+        if(DateTime.Now < startDateTime || DateTime.Now > endDateTime || !scoreString.Equals("-"))
         {
             joinButton.interactable = false;
         }

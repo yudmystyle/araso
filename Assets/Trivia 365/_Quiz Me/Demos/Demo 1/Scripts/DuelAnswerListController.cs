@@ -20,6 +20,11 @@ public class DuelAnswerListController : MonoBehaviour
 
     private void OnEnable()
     {
+        foreach (Transform child in duelAnswerListContent.transform)
+        {
+            if (child.GetSiblingIndex() != 0) Destroy(child.gameObject);
+        }
+
         CallGetDuelAnswer();
     }
 
@@ -72,9 +77,11 @@ public class DuelAnswerListController : MonoBehaviour
 
             duel.GetComponent<DuelAnswerController>().SetText(
                 "Soal " + yourAnswer.data[i].question_number,
-                yourAnswer.data[i].answer,
+                //yourAnswer.data[i].answer,
+                " ",
                 yourAnswerStatus,
-                oppAnswer.data[i].answer,
+                //oppAnswer.data[i].answer,
+                " ",
                 oppAnswerStatus
             );
 
