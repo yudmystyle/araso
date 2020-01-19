@@ -18,6 +18,8 @@ public class DuelResultController : MonoBehaviour
     public GameObject lost;
     [SerializeField]
     public GameObject draw;
+    [SerializeField]
+    public GameObject detailButton;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,7 @@ public class DuelResultController : MonoBehaviour
         win.SetActive(false);
         lost.SetActive(false);
         draw.SetActive(false);
+        detailButton.SetActive(false);
         you.text = "";
         vs.text = "";
         opponent.text = "";
@@ -94,6 +97,8 @@ public class DuelResultController : MonoBehaviour
                 {
                     draw.SetActive(true);
                 }
+
+                detailButton.SetActive(true);
             }
         }
         else

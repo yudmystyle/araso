@@ -29,6 +29,9 @@ public class Login : MonoBehaviour
         form.AddField("password", passwordField.text);
         WWW www = new WWW(ApiConstant.SERVER + "/login", form);
         yield return www;
+
+        Debug.Log(www.text);
+
         if (www.text.Contains("\"success\":1"))
         {
             Debug.Log("User login Successfully");

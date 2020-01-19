@@ -127,6 +127,8 @@ public class Demo1Controller : MonoBehaviour
     public GameObject DuelPanel;
     [Tooltip("The duel result panel")]
     public GameObject DuelResultPanel;
+    [Tooltip("The duel detail panel")]
+    public GameObject DuelDetailPanel;
     [Tooltip("The topbar text")]
     public Text TopBarText;
     [Tooltip("The avatar display component")]
@@ -943,6 +945,11 @@ public class Demo1Controller : MonoBehaviour
         DuelResultPanel.SetActive(true);
     }
 
+    public void ShowDuelDetailPanel()
+    {
+        DuelDetailPanel.SetActive(true);
+    }
+
     public void CloseCreateArenaPanel()
     {
         CreateArenaPanel.SetActive(false);
@@ -980,6 +987,11 @@ public class Demo1Controller : MonoBehaviour
     public void CloseDuelResultPanel()
     {
         DuelResultPanel.SetActive(false);
+    }
+
+    public void CloseDuelDetailPanel()
+    {
+        DuelDetailPanel.SetActive(false);
     }
 
     private IEnumerator CancelDuel()
@@ -1156,6 +1168,36 @@ public class Demo1Controller : MonoBehaviour
         }
     }
 
+    private string setAnswer(int answer)
+    {
+        //Set Answer
+        string strAnswer;
+        if (answer == 0) strAnswer = "A";
+        else if (answer == 1) strAnswer = "B";
+        else if (answer == 2) strAnswer = "C";
+        else strAnswer = "D";
+
+        return strAnswer;
+    }
+
+    //Submit Answer to database (Yudha)
+    IEnumerator SubmitAnswer(int correctAnswer, int answer)
+    {
+        string strAnswer = setAnswer(answer);
+        string strCorrect = setAnswer(correctAnswer);
+
+        //Your answer
+        WWWForm form = new WWWForm();
+        form.AddField("id_duel", PlayerPrefs.GetInt("idDuel"));
+        form.AddField("answer", strAnswer);
+        form.AddField("correct_answer", strCorrect);
+        form.AddField("question_number", PlayerPrefs.GetInt("duelQuestion"));
+        WWW www = new WWW(ApiConstant.SERVER + "/submitanswer", form);
+        yield return www;
+
+        Debug.Log(www.text);
+    }
+
     //Receives the player's answer and then checks if it is correct
     public void Answers(int ButtonIndex)
     {
@@ -1169,6 +1211,14 @@ public class Demo1Controller : MonoBehaviour
             LongBarAnswers.GetComponent<CanvasGroup>().blocksRaycasts = false;
         else
             ShortBarAnswers.GetComponent<CanvasGroup>().blocksRaycasts = false;
+
+        //Submit answer to database (Yudha)
+        if(PlayerPrefs.GetInt("isDuel") == 1)
+        {
+            int questionNumber = PlayerPrefs.GetInt("duelQuestion") + 1;
+            PlayerPrefs.SetInt("duelQuestion", questionNumber);
+            StartCoroutine(SubmitAnswer(CorrectAnswer, ButtonIndex));
+        }
 
         if (CorrectAnswer == ButtonIndex)
         {

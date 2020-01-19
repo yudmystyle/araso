@@ -142,6 +142,8 @@ public class DuelController : MonoBehaviour
     }
     IEnumerator StartGame()
     {
+        PlayerPrefs.SetInt("duelQuestion", 0);
+
         if (duel.paketsoal == 1)
         {
             soal.text = "Soal Bahasa Indonesia";
