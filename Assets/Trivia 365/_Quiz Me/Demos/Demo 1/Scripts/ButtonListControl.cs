@@ -84,5 +84,6 @@ public class ButtonListControl : MonoBehaviour
     public void DetailButtonClicked(int idArena)
     {
         PlayerPrefs.SetInt("idArena", idArena);
+        Controller.ShowDetailArenaPanel();
     }
 }

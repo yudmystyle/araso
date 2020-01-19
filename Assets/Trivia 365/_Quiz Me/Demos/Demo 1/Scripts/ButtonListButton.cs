@@ -45,18 +45,19 @@ public class ButtonListButton : MonoBehaviour
             //Click Action
             currentIdSoal = idSoal;
             this.idArena = idArena;
-            joinButton.onClick.AddListener(JoinOnClick);
-            detailButton.onClick.AddListener(DetailOnClick);
+            joinButton.onClick.AddListener(() => JoinOnClick(idSoal, idArena));
+            detailButton.onClick.AddListener(() => DetailOnClick(idArena));
         }
     }
 
-    public void JoinOnClick()
+    public void JoinOnClick(int idSoal, int idArena)
     {
         buttonListControl.JoinButtonClicked(currentIdSoal, idArena);
     }
 
-    public void DetailOnClick()
+    public void DetailOnClick(int idArena)
     {
+        Debug.Log("ID Arena : " + idArena);
         buttonListControl.DetailButtonClicked(idArena);
     }
 }
