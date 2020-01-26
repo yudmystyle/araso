@@ -3695,6 +3695,9 @@ MonoBehaviour:
   yourStatus: {fileID: 1148577378}
   oppAnswer: {fileID: 2130764972}
   oppStatus: {fileID: 927664388}
+  list: {fileID: 271049244}
+  redList: {fileID: 21300000, guid: a13620f7f7e866e479d48fe20146ab28, type: 3}
+  greenList: {fileID: 21300000, guid: cd86633c5ea825041bdd92d54582d272, type: 3}
 --- !u!1 &284549772
 GameObject:
   m_ObjectHideFlags: 0
@@ -6733,7 +6736,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: KALAH
+  m_Text: LOSE
 --- !u!222 &457882244
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14911,7 +14914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11488476, guid: 57d31a16bd0a0134ead65825fe49ffc2, type: 3}
       propertyPath: m_Text
-      value: Lihat
+      value: View
       objectReference: {fileID: 0}
     - target: {fileID: 11499218, guid: 57d31a16bd0a0134ead65825fe49ffc2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -25002,7 +25005,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HASIL DUEL
+  m_Text: DUEL RESULT
 --- !u!222 &1739709142
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29322,7 +29325,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MENANG
+  m_Text: WIN
 --- !u!222 &2055890148
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30278,7 +30281,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SERI
+  m_Text: DRAW
 --- !u!222 &2076693307
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -13,12 +13,26 @@ public class DuelAnswerController : MonoBehaviour
     public Text oppAnswer;
     [SerializeField]
     public Text oppStatus;
+    [SerializeField]
+    public Image list;
+    [SerializeField]
+    public Sprite redList;
+    [SerializeField]
+    public Sprite greenList;
 
     public void SetText(string strQuestion, string strYourAnswer, string strYourStatus, string strOppAnswer, string strOppStatus)
     {
         question.text = strQuestion;
         yourAnswer.text = strYourAnswer;
         yourStatus.text = strYourStatus;
+        if (strYourStatus.Equals("Benar"))
+        {
+            list.sprite = greenList;
+        }
+        else
+        {
+            list.sprite = redList;
+        }
         oppAnswer.text = strOppAnswer;
         oppStatus.text = strOppStatus;
     }
